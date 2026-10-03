@@ -8,7 +8,7 @@ summed in code — the model only ever returns categories + confidences.
 ## Run it
 
 ```sh
-cd fec
+cd fec/head2head
 ./start.sh            # http://127.0.0.1:8741
 PORT=9000 ./start.sh  # override port
 ```
