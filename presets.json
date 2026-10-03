@@ -1,0 +1,104 @@
+[
+ {
+  "id": "pres2024",
+  "name": "2024 President \u2014 Trump vs Harris",
+  "cycle": 2024,
+  "a": {
+   "label": "Trump",
+   "committee_id": "C00828541",
+   "committee_name": "NEVER SURRENDER, INC.",
+   "candidate_id": "P80001571"
+  },
+  "b": {
+   "label": "Harris",
+   "committee_id": "C00703975",
+   "committee_name": "HARRIS VICTORY FUND",
+   "candidate_id": "P00009423"
+  }
+ },
+ {
+  "id": "mtsen24",
+  "name": "2024 MT Senate \u2014 Tester vs Sheehy",
+  "cycle": 2024,
+  "a": {
+   "label": "Tester",
+   "committee_id": "C00412304",
+   "committee_name": "MONTANANS FOR TESTER",
+   "candidate_id": "S6MT00162"
+  },
+  "b": {
+   "label": "Sheehy",
+   "committee_id": "C00844159",
+   "committee_name": "TIM SHEEHY FOR MONTANA",
+   "candidate_id": "S4MT00183"
+  }
+ },
+ {
+  "id": "pasen24",
+  "name": "2024 PA Senate \u2014 Casey vs McCormick",
+  "cycle": 2024,
+  "a": {
+   "label": "Casey",
+   "committee_id": "C00431056",
+   "committee_name": "BOB CASEY FOR SENATE INC",
+   "candidate_id": "S6PA00217"
+  },
+  "b": {
+   "label": "McCormick",
+   "committee_id": "C00851980",
+   "committee_name": "FRIENDS OF DAVE MCCORMICK",
+   "candidate_id": "S2PA00661"
+  }
+ },
+ {
+  "id": "azsen24",
+  "name": "2024 AZ Senate \u2014 Gallego vs Lake",
+  "cycle": 2024,
+  "a": {
+   "label": "Gallego",
+   "committee_id": "C00558627",
+   "committee_name": "GALLEGO FOR ARIZONA",
+   "candidate_id": "S4AZ00139"
+  },
+  "b": {
+   "label": "Lake",
+   "committee_id": "C00852343",
+   "committee_name": "KARI LAKE FOR SENATE",
+   "candidate_id": "S4AZ00220"
+  }
+ },
+ {
+  "id": "ncsen26",
+  "name": "2026 NC Senate \u2014 Cooper vs Whatley",
+  "cycle": 2026,
+  "a": {
+   "label": "Cooper",
+   "committee_id": "C00913566",
+   "committee_name": "COOPER FOR NORTH CAROLINA",
+   "candidate_id": "S6NC00407"
+  },
+  "b": {
+   "label": "Whatley",
+   "committee_id": "C00913996",
+   "committee_name": "WHATLEY FOR SENATE",
+   "candidate_id": "S6NC00415"
+  }
+ },
+ {
+  "id": "mesen26",
+  "name": "2026 ME Senate \u2014 Collins vs Platner",
+  "cycle": 2026,
+  "a": {
+   "label": "Collins",
+   "committee_id": "C00314575",
+   "committee_name": "COLLINS FOR SENATOR",
+   "candidate_id": "S6ME00159"
+  },
+  "b": {
+   "label": "Platner",
+   "committee_id": "C00916437",
+   "committee_name": "GRAHAM FOR MAINE",
+   "candidate_id": "S6ME00373"
+  }
+ }
+]

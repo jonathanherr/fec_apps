@@ -1,0 +1,948 @@
+{
+ "meta": {
+  "model": "jev-1.13.0 (via jev-latest)",
+  "generated": "2026-10-03",
+  "description": "FEC Schedule A contributor_occupation free text -> donor sectors",
+  "entries": 156,
+  "low_confidence_below_0_8": 42,
+  "note": "Live cache: sector_cache.json"
+ },
+ "mappings": [
+  {
+   "raw": "COMMISSIONER",
+   "canonical": "admin_service",
+   "confidence": 0.34,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CORRECTIONS",
+   "canonical": "admin_service",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "EXEC ASSISTANT",
+   "canonical": "admin_service",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FIREFIGHTER",
+   "canonical": "admin_service",
+   "confidence": 0.75,
+   "source": "jev-web"
+  },
+  {
+   "raw": "HOSPITALITY",
+   "canonical": "admin_service",
+   "confidence": 0.7,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SECRETARY",
+   "canonical": "admin_service",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "UNION ORGANIZER",
+   "canonical": "admin_service",
+   "confidence": 0.43,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ACTOR",
+   "canonical": "arts_media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ARTIST",
+   "canonical": "arts_media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ARTISTIC DIRECTOR",
+   "canonical": "arts_media",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EDITOR",
+   "canonical": "arts_media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FILM PRODUCER AND CONSULTANT",
+   "canonical": "arts_media",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FILMMAKER",
+   "canonical": "arts_media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MUSICIAN",
+   "canonical": "arts_media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PRODUCER",
+   "canonical": "arts_media",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "SCREENWRITER",
+   "canonical": "arts_media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "TV DIRECTOR",
+   "canonical": "arts_media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "WRITER",
+   "canonical": "arts_media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "WRITER & SPEAKER",
+   "canonical": "arts_media",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ACCT MX MGR",
+   "canonical": "business_exec",
+   "confidence": 0.86,
+   "source": "jev-web"
+  },
+  {
+   "raw": "AMBASSADOR",
+   "canonical": "business_exec",
+   "confidence": 0.4,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ANALYST",
+   "canonical": "business_exec",
+   "confidence": 0.7,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ASST VICE PRESIDENT",
+   "canonical": "business_exec",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "AUCTIONEER/CEO",
+   "canonical": "business_exec",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "AUTOMOBILE DEALER",
+   "canonical": "business_exec",
+   "confidence": 0.58,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BANK OFFICER",
+   "canonical": "business_exec",
+   "confidence": 0.6,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BANKER",
+   "canonical": "business_exec",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BEVERAGE WHOLESALER",
+   "canonical": "business_exec",
+   "confidence": 0.51,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BOHANNON DEVELOPMENT CO",
+   "canonical": "business_exec",
+   "confidence": 0.9,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BUSINESS",
+   "canonical": "business_exec",
+   "confidence": 0.94,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BUSINESS OWNER",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BUSINESSMAN",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BUSSINESS OWNER",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BUYER",
+   "canonical": "business_exec",
+   "confidence": 0.4,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CAR DEALER",
+   "canonical": "business_exec",
+   "confidence": 0.93,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CEO",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "CEO //// CHIEF SUSTAINABILITY OFFICER",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CHAIRMAN",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CHIEF EXECUTIVE OFFICER",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CHIEF FINANCIAL OFFICER",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CO-CHAIRMAN",
+   "canonical": "business_exec",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CO-EXECUTIVE DIRECTOR",
+   "canonical": "business_exec",
+   "confidence": 0.89,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CONSULTANT",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CONSULTING",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "CONTRACTOR",
+   "canonical": "business_exec",
+   "confidence": 0.38,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CORPORATE DEVELOPMENT",
+   "canonical": "business_exec",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CTO",
+   "canonical": "business_exec",
+   "confidence": 0.51,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIRECTOR",
+   "canonical": "business_exec",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIRECTOR OF SALES",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ECONOMIC DEVELOPMENT",
+   "canonical": "business_exec",
+   "confidence": 0.63,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ENERGY EXECUTIVE",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ENTREPRENEUR",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "EXECUTIVE",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EXECUTIVE CHAIRMAN",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FEDERAL LOBBYIST",
+   "canonical": "business_exec",
+   "confidence": 0.54,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FINANCE",
+   "canonical": "business_exec",
+   "confidence": 0.75,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FINANCIAL ADVISOR",
+   "canonical": "business_exec",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FINANCIAL CONSULTANT",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FOUNDER",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FOUNDER AND CHAIRMAN",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FUNDRAISER",
+   "canonical": "business_exec",
+   "confidence": 0.75,
+   "source": "jev-web"
+  },
+  {
+   "raw": "GENERAL CONTRACTOR",
+   "canonical": "business_exec",
+   "confidence": 0.52,
+   "source": "jev-web"
+  },
+  {
+   "raw": "GOV'T AFFAIRS CONSULTANT",
+   "canonical": "business_exec",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "GOVERNMENT RELATIONS",
+   "canonical": "business_exec",
+   "confidence": 0.82,
+   "source": "jev-web"
+  },
+  {
+   "raw": "GOVERNMENT RELATIONS CONSULTANT",
+   "canonical": "business_exec",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "INV MGMT",
+   "canonical": "business_exec",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "INVESTMENT MANAGER",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "INVESTMENT MANAGMENT",
+   "canonical": "business_exec",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "INVESTMENTS",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "INVESTOR",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "LOBBYIST",
+   "canonical": "business_exec",
+   "confidence": 0.75,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MANAGEMENT",
+   "canonical": "business_exec",
+   "confidence": 0.96,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MANAGEMENT CONSULTANT",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MANAGER",
+   "canonical": "business_exec",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MANAGING DIRECTOR",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MFG BUSINESS",
+   "canonical": "business_exec",
+   "confidence": 0.92,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MONEY MANAGER",
+   "canonical": "business_exec",
+   "confidence": 0.92,
+   "source": "jev-web"
+  },
+  {
+   "raw": "OIL AND GAS",
+   "canonical": "business_exec",
+   "confidence": 0.63,
+   "source": "jev-web"
+  },
+  {
+   "raw": "OWNER",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PARTNER",
+   "canonical": "business_exec",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "POLITICAL CONSULTANT",
+   "canonical": "business_exec",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PRESIDENT",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PRESIDENT/CEO",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PRODUCT MANAGER",
+   "canonical": "business_exec",
+   "confidence": 0.67,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PROPRIETOR",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "RANCHER",
+   "canonical": "business_exec",
+   "confidence": 0.57,
+   "source": "jev-web"
+  },
+  {
+   "raw": "RANCHER/INVESTOR",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "RANCHING",
+   "canonical": "business_exec",
+   "confidence": 0.52,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REAL ESTATE",
+   "canonical": "business_exec",
+   "confidence": 0.68,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REAL ESTATE BROKER",
+   "canonical": "business_exec",
+   "confidence": 0.96,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REAL ESTATE DEVELOPMENT",
+   "canonical": "business_exec",
+   "confidence": 0.96,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REAL ESTATE INVESTMENT",
+   "canonical": "business_exec",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REALTOR",
+   "canonical": "business_exec",
+   "confidence": 0.5,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REGIONAL SALES MANAGER",
+   "canonical": "business_exec",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SALES",
+   "canonical": "business_exec",
+   "confidence": 0.73,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SELF-EMPLOYED",
+   "canonical": "business_exec",
+   "confidence": 0.88,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SMALL BUSINESS",
+   "canonical": "business_exec",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "TRADING",
+   "canonical": "business_exec",
+   "confidence": 0.89,
+   "source": "jev-web"
+  },
+  {
+   "raw": "VENTURE CAPITALIST",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "VICE PRESIDENT",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "VP",
+   "canonical": "business_exec",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ACADEMIC",
+   "canonical": "education",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "COLLEGE PROFESSOR",
+   "canonical": "education",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "GRADUATE TEACHING ASSISTANT",
+   "canonical": "education",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PROFESSIONAL DEVELOPMENT",
+   "canonical": "education",
+   "confidence": 0.65,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PROFESSOR",
+   "canonical": "education",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "PROFESSOR EMERITUS",
+   "canonical": "education",
+   "confidence": 0.67,
+   "source": "jev-web"
+  },
+  {
+   "raw": "RESEARCH PROFESSOR",
+   "canonical": "education",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "HOMECARE",
+   "canonical": "health",
+   "confidence": 0.92,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MEDICAL RESEARCH",
+   "canonical": "health",
+   "confidence": 0.94,
+   "source": "jev-web"
+  },
+  {
+   "raw": "NON-PROFIT SOCIAL WORK",
+   "canonical": "health",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PHARMACEUTICAL",
+   "canonical": "health",
+   "confidence": 0.92,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PHYSICAL THERAPIST",
+   "canonical": "health",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PHYSICIAN",
+   "canonical": "health",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PSYCHOANALYST",
+   "canonical": "health",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "RESPIRATORY THERAPIST",
+   "canonical": "health",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "SMD",
+   "canonical": "health",
+   "confidence": 0.38,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SOCIAL SERVICES",
+   "canonical": "health",
+   "confidence": 0.74,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SOCIAL WORKER",
+   "canonical": "health",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "ASSOCIATE GENERAL COUNSEL",
+   "canonical": "legal",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ATTORNEY",
+   "canonical": "legal",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "LAWYER",
+   "canonical": "legal",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "LAWYERS",
+   "canonical": "legal",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PARALEGAL",
+   "canonical": "legal",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "HOME MAKER",
+   "canonical": "retired_not_employed",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "HOMEMAKER",
+   "canonical": "retired_not_employed",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "MOTHER",
+   "canonical": "retired_not_employed",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "NOT EMPLOYED",
+   "canonical": "retired_not_employed",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "RETIRED",
+   "canonical": "retired_not_employed",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "BUILDER",
+   "canonical": "technical",
+   "confidence": 0.69,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CPA",
+   "canonical": "technical",
+   "confidence": 0.33,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ECONOMIST",
+   "canonical": "technical",
+   "confidence": 0.36,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ENGINEER",
+   "canonical": "technical",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "ENGINEER CONSULTANT",
+   "canonical": "technical",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "ENGINEERING MANAGER",
+   "canonical": "technical",
+   "confidence": 0.94,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FABRICATOR",
+   "canonical": "technical",
+   "confidence": 0.8,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MECHANIC",
+   "canonical": "technical",
+   "confidence": 0.9,
+   "source": "jev-web"
+  },
+  {
+   "raw": "NEUROSCIENTIST",
+   "canonical": "technical",
+   "confidence": 0.75,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PHYSICIST",
+   "canonical": "technical",
+   "confidence": 0.77,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SCIENTIST",
+   "canonical": "technical",
+   "confidence": 0.82,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SECURITY ENGINEER",
+   "canonical": "technical",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SOFTWARE DEVELOPER",
+   "canonical": "technical",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SOFTWARE ENGINEER",
+   "canonical": "technical",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SOFTWARE ENGINEERING MANAGER",
+   "canonical": "technical",
+   "confidence": 0.78,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SOFTWARE MANAGER",
+   "canonical": "technical",
+   "confidence": 0.76,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SYSTEM ADMINISTRATOR",
+   "canonical": "technical",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ANIMAL BEHAVIORIST",
+   "canonical": "unknown",
+   "confidence": 0.47,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CHAIR",
+   "canonical": "unknown",
+   "confidence": 0.85,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CONSTRUCTION",
+   "canonical": "unknown",
+   "confidence": 0.5,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FARMER",
+   "canonical": "unknown",
+   "confidence": 0.62,
+   "source": "jev-web"
+  },
+  {
+   "raw": "HORSE BREEDER",
+   "canonical": "unknown",
+   "confidence": 0.49,
+   "source": "jev-web"
+  },
+  {
+   "raw": "INDIAN TRIBE",
+   "canonical": "unknown",
+   "confidence": 0.8,
+   "source": "jev-web"
+  },
+  {
+   "raw": "INFORMATION REQUESTED",
+   "canonical": "unknown",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "ROCKET MONEY",
+   "canonical": "unknown",
+   "confidence": 0.57,
+   "source": "jev-web"
+  },
+  {
+   "raw": "TRANSPORTATION",
+   "canonical": "unknown",
+   "confidence": 0.71,
+   "source": "jev-web"
+  },
+  {
+   "raw": "UNKNOWN-missing",
+   "canonical": "unknown",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  }
+ ]
+}

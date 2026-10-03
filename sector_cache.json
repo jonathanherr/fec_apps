@@ -1,0 +1,782 @@
+{
+ "RETIRED": {
+  "sector": "retired_not_employed",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "NOT EMPLOYED": {
+  "sector": "retired_not_employed",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "INFORMATION REQUESTED": {
+  "sector": "unknown",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "ENTREPRENEUR": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "HOMEMAKER": {
+  "sector": "retired_not_employed",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "ATTORNEY": {
+  "sector": "legal",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "PROFESSOR": {
+  "sector": "education",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "ENGINEER": {
+  "sector": "technical",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "ENGINEER CONSULTANT": {
+  "sector": "technical",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "CEO": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "CONSULTING": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "RESPIRATORY THERAPIST": {
+  "sector": "health",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "SOCIAL WORKER": {
+  "sector": "health",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "PRODUCER": {
+  "sector": "arts_media",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "SECRETARY": {
+  "sector": "admin_service",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "CORRECTIONS": {
+  "sector": "admin_service",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "INVESTMENTS": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "UNKNOWN-missing": {
+  "sector": "unknown",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "BOHANNON DEVELOPMENT CO": {
+  "sector": "business_exec",
+  "conf": 0.9,
+  "src": "jev-web"
+ },
+ "BUYER": {
+  "sector": "business_exec",
+  "conf": 0.4,
+  "src": "jev-web"
+ },
+ "CHAIRMAN": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "HOMECARE": {
+  "sector": "health",
+  "conf": 0.92,
+  "src": "jev-web"
+ },
+ "MANAGING DIRECTOR": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "PRESIDENT": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "REALTOR": {
+  "sector": "business_exec",
+  "conf": 0.5,
+  "src": "jev-web"
+ },
+ "ACADEMIC": {
+  "sector": "education",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "ANIMAL BEHAVIORIST": {
+  "sector": "unknown",
+  "conf": 0.47,
+  "src": "jev-web"
+ },
+ "BUILDER": {
+  "sector": "technical",
+  "conf": 0.69,
+  "src": "jev-web"
+ },
+ "CHAIR": {
+  "sector": "unknown",
+  "conf": 0.85,
+  "src": "jev-web"
+ },
+ "ECONOMIC DEVELOPMENT": {
+  "sector": "business_exec",
+  "conf": 0.63,
+  "src": "jev-web"
+ },
+ "EXECUTIVE": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "FILMMAKER": {
+  "sector": "arts_media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "FINANCE": {
+  "sector": "business_exec",
+  "conf": 0.75,
+  "src": "jev-web"
+ },
+ "HOSPITALITY": {
+  "sector": "admin_service",
+  "conf": 0.7,
+  "src": "jev-web"
+ },
+ "MONEY MANAGER": {
+  "sector": "business_exec",
+  "conf": 0.92,
+  "src": "jev-web"
+ },
+ "MOTHER": {
+  "sector": "retired_not_employed",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "OWNER": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "PHYSICIAN": {
+  "sector": "health",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "POLITICAL CONSULTANT": {
+  "sector": "business_exec",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "PROPRIETOR": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "ROCKET MONEY": {
+  "sector": "unknown",
+  "conf": 0.57,
+  "src": "jev-web"
+ },
+ "ACCT MX MGR": {
+  "sector": "business_exec",
+  "conf": 0.86,
+  "src": "jev-web"
+ },
+ "CPA": {
+  "sector": "technical",
+  "conf": 0.33,
+  "src": "jev-web"
+ },
+ "MECHANIC": {
+  "sector": "technical",
+  "conf": 0.9,
+  "src": "jev-web"
+ },
+ "MFG BUSINESS": {
+  "sector": "business_exec",
+  "conf": 0.92,
+  "src": "jev-web"
+ },
+ "REAL ESTATE DEVELOPMENT": {
+  "sector": "business_exec",
+  "conf": 0.96,
+  "src": "jev-web"
+ },
+ "VP": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "ACTOR": {
+  "sector": "arts_media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "AMBASSADOR": {
+  "sector": "business_exec",
+  "conf": 0.4,
+  "src": "jev-web"
+ },
+ "ANALYST": {
+  "sector": "business_exec",
+  "conf": 0.7,
+  "src": "jev-web"
+ },
+ "ARTISTIC DIRECTOR": {
+  "sector": "arts_media",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "ASSOCIATE GENERAL COUNSEL": {
+  "sector": "legal",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "BUSINESS OWNER": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "CEO //// CHIEF SUSTAINABILITY OFFICER": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "CO-EXECUTIVE DIRECTOR": {
+  "sector": "business_exec",
+  "conf": 0.89,
+  "src": "jev-web"
+ },
+ "CONSULTANT": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "CORPORATE DEVELOPMENT": {
+  "sector": "business_exec",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "CTO": {
+  "sector": "business_exec",
+  "conf": 0.51,
+  "src": "jev-web"
+ },
+ "EXECUTIVE CHAIRMAN": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "INVESTOR": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "LAWYER": {
+  "sector": "legal",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "NON-PROFIT SOCIAL WORK": {
+  "sector": "health",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "PHARMACEUTICAL": {
+  "sector": "health",
+  "conf": 0.92,
+  "src": "jev-web"
+ },
+ "PHYSICIST": {
+  "sector": "technical",
+  "conf": 0.77,
+  "src": "jev-web"
+ },
+ "PRODUCT MANAGER": {
+  "sector": "business_exec",
+  "conf": 0.67,
+  "src": "jev-web"
+ },
+ "PROFESSIONAL DEVELOPMENT": {
+  "sector": "education",
+  "conf": 0.65,
+  "src": "jev-web"
+ },
+ "PROFESSOR EMERITUS": {
+  "sector": "education",
+  "conf": 0.67,
+  "src": "jev-web"
+ },
+ "REAL ESTATE": {
+  "sector": "business_exec",
+  "conf": 0.68,
+  "src": "jev-web"
+ },
+ "RESEARCH PROFESSOR": {
+  "sector": "education",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "SECURITY ENGINEER": {
+  "sector": "technical",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "SOCIAL SERVICES": {
+  "sector": "health",
+  "conf": 0.74,
+  "src": "jev-web"
+ },
+ "SOFTWARE DEVELOPER": {
+  "sector": "technical",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "SOFTWARE ENGINEER": {
+  "sector": "technical",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "SOFTWARE ENGINEERING MANAGER": {
+  "sector": "technical",
+  "conf": 0.78,
+  "src": "jev-web"
+ },
+ "SOFTWARE MANAGER": {
+  "sector": "technical",
+  "conf": 0.76,
+  "src": "jev-web"
+ },
+ "SYSTEM ADMINISTRATOR": {
+  "sector": "technical",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "TRADING": {
+  "sector": "business_exec",
+  "conf": 0.89,
+  "src": "jev-web"
+ },
+ "TV DIRECTOR": {
+  "sector": "arts_media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "WRITER & SPEAKER": {
+  "sector": "arts_media",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "AUTOMOBILE DEALER": {
+  "sector": "business_exec",
+  "conf": 0.58,
+  "src": "jev-web"
+ },
+ "BEVERAGE WHOLESALER": {
+  "sector": "business_exec",
+  "conf": 0.51,
+  "src": "jev-web"
+ },
+ "CONSTRUCTION": {
+  "sector": "unknown",
+  "conf": 0.5,
+  "src": "jev-web"
+ },
+ "CONTRACTOR": {
+  "sector": "business_exec",
+  "conf": 0.38,
+  "src": "jev-web"
+ },
+ "FOUNDER": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "FOUNDER AND CHAIRMAN": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "MANAGEMENT": {
+  "sector": "business_exec",
+  "conf": 0.96,
+  "src": "jev-web"
+ },
+ "PRESIDENT/CEO": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "REGIONAL SALES MANAGER": {
+  "sector": "business_exec",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "TRANSPORTATION": {
+  "sector": "unknown",
+  "conf": 0.71,
+  "src": "jev-web"
+ },
+ "ARTIST": {
+  "sector": "arts_media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "BUSSINESS OWNER": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "CHIEF EXECUTIVE OFFICER": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "CHIEF FINANCIAL OFFICER": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "DIRECTOR OF SALES": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "EDITOR": {
+  "sector": "arts_media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "ENERGY EXECUTIVE": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "ENGINEERING MANAGER": {
+  "sector": "technical",
+  "conf": 0.94,
+  "src": "jev-web"
+ },
+ "FABRICATOR": {
+  "sector": "technical",
+  "conf": 0.8,
+  "src": "jev-web"
+ },
+ "FARMER": {
+  "sector": "unknown",
+  "conf": 0.62,
+  "src": "jev-web"
+ },
+ "FINANCIAL ADVISOR": {
+  "sector": "business_exec",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "GOVERNMENT RELATIONS CONSULTANT": {
+  "sector": "business_exec",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "GRADUATE TEACHING ASSISTANT": {
+  "sector": "education",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "HORSE BREEDER": {
+  "sector": "unknown",
+  "conf": 0.49,
+  "src": "jev-web"
+ },
+ "INVESTMENT MANAGER": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "MEDICAL RESEARCH": {
+  "sector": "health",
+  "conf": 0.94,
+  "src": "jev-web"
+ },
+ "MUSICIAN": {
+  "sector": "arts_media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "PARALEGAL": {
+  "sector": "legal",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "PARTNER": {
+  "sector": "business_exec",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "PHYSICAL THERAPIST": {
+  "sector": "health",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "PSYCHOANALYST": {
+  "sector": "health",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "SCREENWRITER": {
+  "sector": "arts_media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "UNION ORGANIZER": {
+  "sector": "admin_service",
+  "conf": 0.43,
+  "src": "jev-web"
+ },
+ "VENTURE CAPITALIST": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "WRITER": {
+  "sector": "arts_media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "ASST VICE PRESIDENT": {
+  "sector": "business_exec",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "BANKER": {
+  "sector": "business_exec",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "BUSINESSMAN": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "CO-CHAIRMAN": {
+  "sector": "business_exec",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "COLLEGE PROFESSOR": {
+  "sector": "education",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "COMMISSIONER": {
+  "sector": "admin_service",
+  "conf": 0.34,
+  "src": "jev-web"
+ },
+ "DIRECTOR": {
+  "sector": "business_exec",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "ECONOMIST": {
+  "sector": "technical",
+  "conf": 0.36,
+  "src": "jev-web"
+ },
+ "FILM PRODUCER AND CONSULTANT": {
+  "sector": "arts_media",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "FUNDRAISER": {
+  "sector": "business_exec",
+  "conf": 0.75,
+  "src": "jev-web"
+ },
+ "GOV'T AFFAIRS CONSULTANT": {
+  "sector": "business_exec",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "GOVERNMENT RELATIONS": {
+  "sector": "business_exec",
+  "conf": 0.82,
+  "src": "jev-web"
+ },
+ "INDIAN TRIBE": {
+  "sector": "unknown",
+  "conf": 0.8,
+  "src": "jev-web"
+ },
+ "LOBBYIST": {
+  "sector": "business_exec",
+  "conf": 0.75,
+  "src": "jev-web"
+ },
+ "NEUROSCIENTIST": {
+  "sector": "technical",
+  "conf": 0.75,
+  "src": "jev-web"
+ },
+ "RANCHER/INVESTOR": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "REAL ESTATE BROKER": {
+  "sector": "business_exec",
+  "conf": 0.96,
+  "src": "jev-web"
+ },
+ "REAL ESTATE INVESTMENT": {
+  "sector": "business_exec",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "SALES": {
+  "sector": "business_exec",
+  "conf": 0.73,
+  "src": "jev-web"
+ },
+ "SCIENTIST": {
+  "sector": "technical",
+  "conf": 0.82,
+  "src": "jev-web"
+ },
+ "VICE PRESIDENT": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "AUCTIONEER/CEO": {
+  "sector": "business_exec",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "BANK OFFICER": {
+  "sector": "business_exec",
+  "conf": 0.6,
+  "src": "jev-web"
+ },
+ "BUSINESS": {
+  "sector": "business_exec",
+  "conf": 0.94,
+  "src": "jev-web"
+ },
+ "CAR DEALER": {
+  "sector": "business_exec",
+  "conf": 0.93,
+  "src": "jev-web"
+ },
+ "EXEC ASSISTANT": {
+  "sector": "admin_service",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "FEDERAL LOBBYIST": {
+  "sector": "business_exec",
+  "conf": 0.54,
+  "src": "jev-web"
+ },
+ "FINANCIAL CONSULTANT": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "FIREFIGHTER": {
+  "sector": "admin_service",
+  "conf": 0.75,
+  "src": "jev-web"
+ },
+ "GENERAL CONTRACTOR": {
+  "sector": "business_exec",
+  "conf": 0.52,
+  "src": "jev-web"
+ },
+ "HOME MAKER": {
+  "sector": "retired_not_employed",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "INV MGMT": {
+  "sector": "business_exec",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "INVESTMENT MANAGMENT": {
+  "sector": "business_exec",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "LAWYERS": {
+  "sector": "legal",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "MANAGEMENT CONSULTANT": {
+  "sector": "business_exec",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "MANAGER": {
+  "sector": "business_exec",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "OIL AND GAS": {
+  "sector": "business_exec",
+  "conf": 0.63,
+  "src": "jev-web"
+ },
+ "RANCHER": {
+  "sector": "business_exec",
+  "conf": 0.57,
+  "src": "jev-web"
+ },
+ "RANCHING": {
+  "sector": "business_exec",
+  "conf": 0.52,
+  "src": "jev-web"
+ },
+ "SELF-EMPLOYED": {
+  "sector": "business_exec",
+  "conf": 0.88,
+  "src": "jev-web"
+ },
+ "SMALL BUSINESS": {
+  "sector": "business_exec",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "SMD": {
+  "sector": "health",
+  "conf": 0.38,
+  "src": "jev-web"
+ }
+}

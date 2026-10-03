@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FEC × Jev — Head-to-Head Explorer</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 1024px; margin: 2rem auto; padding: 0 1rem; color: #1a1a1a; }
+  h1 { font-size: 1.5rem; margin-bottom: 0; } .sub { color: #555; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; border-top: 1px solid #ddd; padding-top: 1rem; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: .75rem; margin-top: .5rem; }
+  .card { border: 1px solid #ddd; border-radius: 8px; padding: .75rem; cursor: pointer; }
+  .card:hover { border-color: #66c; background: #f8f9ff; }
+  .card.sel { border-color: #33c; background: #eef0ff; }
+  .card b { display: block; } .card span { color: #555; font-size: .85rem; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  @media (max-width: 700px) { .grid { grid-template-columns: 1fr; } }
+  .side { border: 1px solid #ddd; border-radius: 8px; padding: .75rem; min-height: 90px; }
+  .side h3 { margin: 0 0 .5rem; } .side .meta { font-size: .85rem; color: #333; }
+  input[type=text] { width: 100%; padding: 8px; font-size: 1rem; box-sizing: border-box; }
+  button { padding: 8px 16px; font-size: 1rem; margin-top: .5rem; cursor: pointer; }
+  button.primary { background: #33c; color: #fff; border: none; border-radius: 6px; }
+  button:disabled { opacity: .5; cursor: default; }
+  .result { border-bottom: 1px solid #eee; padding: 6px 0; font-size: .9rem; }
+  .result button { font-size: .8rem; padding: 2px 8px; margin: 0 0 0 6px; }
+  table { border-collapse: collapse; width: 100%; font-size: .85rem; margin-top: .5rem; }
+  th, td { border: 1px solid #ddd; padding: 4px 8px; text-align: left; }
+  th { background: #f5f5f5; } td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  code { background: #f4f4f4; padding: 1px 4px; border-radius: 3px; font-size: .82rem; }
+  #progress { margin-top: 1rem; font-size: .95rem; }
+  .bar { height: 10px; background: #eee; border-radius: 5px; overflow: hidden; margin-top: 4px; }
+  .bar > div { height: 100%; background: #33c; width: 0%; transition: width .3s; }
+  .lowconf { color: #a60; }
+</style>
+</head>
+<body>
+<h1>FEC × Jev — Head-to-Head Explorer</h1>
+<p class="sub">Pick a preset race or build your own from FEC search. Spending descriptions are normalized by Jev (cached); dollars are summed in code. Keys stay on the server.</p>
+
+<h2>1. Preset races</h2>
+<div class="cards" id="presets"></div>
+
+<h2>2. Or build your own</h2>
+<div class="grid">
+  <div>
+    <input type="text" id="q" placeholder="Search candidates — e.g. Ossoff, Cruz, Warren">
+    <div id="searchResults"></div>
+  </div>
+  <div>
+    <label>Cycle: <select id="cycle"><option>2024</option><option>2026</option></select></label>
+    <label style="margin-left:1rem">Depth: <select id="depth"><option value="6">quick (6 pgs)</option><option value="10" selected>standard (10 pgs)</option><option value="14">deep (14 pgs)</option></select></label>
+    <div id="candDetail" class="sub" style="margin-top:.5rem">Search, then pick a candidate to see committees.</div>
+  </div>
+</div>
+
+<h2>3. Matchup</h2>
+<div class="grid">
+  <div class="side" id="sideA"><h3>Side A — <span class="sub">none</span></h3></div>
+  <div class="side" id="sideB"><h3>Side B — <span class="sub">none</span></h3></div>
+</div>
+<button class="primary" id="run" disabled>Run analysis</button>
+<div id="progress"></div>
+
+<h2>4. Results</h2>
+<div id="results"><p class="sub">No run yet.</p></div>
+
+<script>
+const TACTICS = ["media","direct_contact","operations","transfers","legal_compliance","fundraising_ops","events"];
+const TOP_SPENDERS_N = 14;
+let sel = {a: null, b: null, cycle: 2024};
+let charts = [];
+
+const $ = id => document.getElementById(id);
+const fmt$ = n => n == null ? "—" : "$" + Math.round(n).toLocaleString();
+
+async function api(path, opts) {
+  const r = await fetch(path, opts);
+  if (!r.ok) throw new Error("HTTP " + r.status);
+  return r.json();
+}
+
+async function loadPresets() {
+  const presets = await api("/api/presets");
+  const el = $("presets");
+  el.innerHTML = "";
+  presets.forEach(p => {
+    const d = document.createElement("div");
+    d.className = "card";
+    d.innerHTML = `<b>${p.name}</b><span>${p.a.label} (${p.a.committee_id}) vs ${p.b.label} (${p.b.committee_id})</span>`;
+    d.onclick = () => {
+      document.querySelectorAll(".card").forEach(c => c.classList.remove("sel"));
+      d.classList.add("sel");
+      sel = {a: {...p.a}, b: {...p.b}, cycle: p.cycle};
+      $("cycle").value = String(p.cycle);
+      renderSides();
+    };
+    el.appendChild(d);
+  });
+}
+
+function renderSides() {
+  for (const s of ["a", "b"]) {
+    const v = sel[s];
+    $(s === "a" ? "sideA" : "sideB").innerHTML = v
+      ? `<h3>Side ${s.toUpperCase()} — ${v.label}</h3><div class="meta">${v.committee_name || ""}<br><code>${v.committee_id}</code> · cycle ${sel.cycle}</div>`
+      : `<h3>Side ${s.toUpperCase()} — <span class="sub">none</span></h3>`;
+  }
+  $("run").disabled = !(sel.a && sel.b);
+}
+
+let searchTimer = null;
+$("q").addEventListener("input", () => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(doSearch, 400);
+});
+
+async function doSearch() {
+  const q = $("q").value.trim();
+  if (q.length < 2) { $("searchResults").innerHTML = ""; return; }
+  const res = await api("/api/search/candidates?q=" + encodeURIComponent(q));
+  const el = $("searchResults");
+  el.innerHTML = res.length ? "" : "<p class='sub'>No matches.</p>";
+  res.slice(0, 8).forEach(c => {
+    const d = document.createElement("div");
+    d.className = "result";
+    d.innerHTML = `<b>${c.name}</b> <span class="sub">${c.office || ""} ${c.state || ""} · ${(c.election_years || []).join(",")}</span>`;
+    d.onclick = () => showCommittees(c);
+    el.appendChild(d);
+  });
+}
+
+async function showCommittees(c) {
+  const cycle = $("cycle").value;
+  const list = await api(`/api/candidate/${c.candidate_id}/committees?cycle=${cycle}`);
+  const el = $("candDetail");
+  el.innerHTML = `<b>${c.name}</b> — committees (${cycle}):` + (list.length ? "" : " none found");
+  list.forEach(k => {
+    const d = document.createElement("div");
+    d.className = "result";
+    d.innerHTML = `<code>${k.committee_id}</code> ${k.name} <span class="sub">${k.designation || ""}</span>
+      <button data-s="a">→ A</button><button data-s="b">→ B</button>`;
+    d.querySelectorAll("button").forEach(b => b.onclick = (e) => {
+      e.stopPropagation();
+      sel[b.dataset.s] = {label: c.name.split(",")[0], committee_id: k.committee_id, committee_name: k.name, candidate_id: c.candidate_id};
+      sel.cycle = parseInt($("cycle").value);
+      document.querySelectorAll(".card").forEach(x => x.classList.remove("sel"));
+      renderSides();
+    });
+    el.appendChild(d);
+  });
+}
+
+$("cycle").addEventListener("change", () => { sel.cycle = parseInt($("cycle").value); renderSides(); });
+
+$("run").onclick = async () => {
+  $("run").disabled = true;
+  $("progress").innerHTML = "Starting…<div class='bar'><div></div></div>";
+  const bar = $("progress").querySelector(".bar > div");
+  const {job_id} = await api("/api/analyze", {
+    method: "POST", headers: {"Content-Type": "application/json"},
+    body: JSON.stringify({a_committee: sel.a.committee_id, a_label: sel.a.label,
+      a_candidate: sel.a.candidate_id, b_committee: sel.b.committee_id,
+      b_label: sel.b.label, b_candidate: sel.b.candidate_id,
+      cycle: sel.cycle, max_pages: parseInt($("depth").value)}),
+  });
+  const t0 = Date.now();
+  while (true) {
+    await new Promise(r => setTimeout(r, 2000));
+    const job = await api("/api/jobs/" + job_id);
+    const p = job.progress || {};
+    const el = Math.floor((Date.now() - t0) / 1000);
+    $("progress").innerHTML = `Side ${p.side || "?"} · ${p.stage || ""} ${p.n || ""} · ${el}s<div class='bar'><div style="width:${Math.min(95, el)}%"></div></div>`;
+    if (job.status === "done") { bar && (bar.style.width = "100%"); showResults(job.result); break; }
+    if (job.status === "error") { $("progress").innerHTML = "<b>Error:</b><pre>" + job.error + "</pre>"; break; }
+  }
+  $("run").disabled = false;
+};
+
+function bar(id, labels, data, title) {
+  const c = document.getElementById(id);
+  charts.push(new Chart(c, {type: "bar",
+    data: {labels, datasets: [{data}]},
+    options: {plugins: {title: {display: true, text: title}, legend: {display: false}}, scales: {y: {beginAtZero: true}}}}));
+}
+
+function showResults(r) {
+  charts.forEach(c => c.destroy()); charts = [];
+  const {a, b} = r;
+  const share = (s, t) => s.spend_total ? (100 * (s.spend_by_tactic[t] || 0) / s.spend_total).toFixed(1) + "%" : "—";
+  let h = `<p><button id="tabBars" class="primary">Bars</button> <button id="tabSankey">Outside-money Sankey</button></p>`;
+  h += `<div id="viewBars">`;
+  h += `<p>Spend sample: <b>${a.label}</b> ${fmt$(a.spend_total)} over ${a.records_in_year} records (${(100 * (a.coverage || 0)).toFixed(1)}% of cycle disbursements) ·
+    <b>${b.label}</b> ${fmt$(b.spend_total)} over ${b.records_in_year} records (${(100 * (b.coverage || 0)).toFixed(1)}%).</p>`;
+  h += `<div class="grid"><div><canvas id="cA"></canvas></div><div><canvas id="cB"></canvas></div></div>`;
+  h += `<table><tr><th>Tactic</th><th>${a.label} $</th><th>${a.label} share</th><th>${b.label} $</th><th>${b.label} share</th></tr>` +
+    TACTICS.map(t => `<tr><td>${t}</td><td class="num">${fmt$(a.spend_by_tactic[t])}</td><td class="num">${share(a, t)}</td><td class="num">${fmt$(b.spend_by_tactic[t])}</td><td class="num">${share(b, t)}</td></tr>`).join("") + `</table>`;
+  const sectors = [...new Set([...Object.keys(a.donor_by_sector), ...Object.keys(b.donor_by_sector)])].sort();
+  h += `<h2>Donor sectors (itemized individuals, n=${a.donor_n}/${b.donor_n})</h2><div class="grid"><div><canvas id="dA"></canvas></div><div><canvas id="dB"></canvas></div></div>`;
+  h += `<table><tr><th>Sector</th><th>${a.label}</th><th>${b.label}</th></tr>` +
+    sectors.map(s => `<tr><td>${s}</td><td class="num">${a.donor_by_sector[s] || 0}</td><td class="num">${b.donor_by_sector[s] || 0}</td></tr>`).join("") + `</table>`;
+  const nm = {...a.new_tactic_mappings, ...b.new_tactic_mappings};
+  const ns = {...a.new_sector_mappings, ...b.new_sector_mappings};
+  if (Object.keys(nm).length || Object.keys(ns).length) {
+    h += `<h2>New Jev mappings this run (cached for next time)</h2><table><tr><th>Raw FEC text</th><th>Category</th><th>Conf</th></tr>` +
+      Object.entries(nm).map(([k, v]) => `<tr><td>${k}</td><td>${v.tactic}</td><td class="num ${v.conf < 0.8 ? "lowconf" : ""}">${v.conf}</td></tr>`).join("") +
+      Object.entries(ns).map(([k, v]) => `<tr><td>${k}</td><td>${v.sector}</td><td class="num ${v.conf < 0.8 ? "lowconf" : ""}">${v.conf}</td></tr>`).join("") + `</table>`;
+  } else {
+    h += `<p class="sub">No new Jev calls needed — every description/occupation was already cached.</p>`;
+  }
+  h += `<p class="sub">Cycle ${r.cycle} · tactic cache ${r.tactic_cache_size} · sector cache ${r.sector_cache_size}. Method: cursor-walk Schedule B top-by-amount (FEC ignores <code>page</code> with <code>sort</code>; cursor via <code>last_indexes</code>), filter to election-year dates, dedupe on <code>sub_id</code>, reconcile against <code>/committee/totals/</code>.</p>`;
+  h += `</div><div id="viewSankey" style="display:none">`;
+  if (r.sankey && r.sankey.links.length) {
+    h += `<details open><summary><b>How to read this chart</b></summary>
+      <p>Follow the money <b>left → right</b>. <b>Width = dollars.</b></p>
+      <ul>
+      <li><b>Left nodes</b> are spender committees — super PACs and groups buying ads <i>about</i> these candidates (not the candidates' own committees; those are in the Bars tab).</li>
+      <li><b>Middle nodes</b> are spending tactics. Raw FEC descriptions ("PLACED MEDIA", "SMS ADVERTISING", …) are normalized into 7 tactics by Jev — without that, this layer would be hundreds of unreadable strands.</li>
+      <li><b>Right nodes</b> are outcomes: money spent <span style="color:#0a7"><b>supporting</b></span> vs <span style="color:#c33"><b>opposing</b></span> each candidate.</li>
+      <li>Trace a path: e.g. <i>FF PAC → media → ${b.label} supported</i> reads "FF PAC spent $X on media supporting ${b.label}". Hover any band or node for exact dollars.</li>
+      <li>Only the top ${TOP_SPENDERS_N} spenders are named; the rest merge into "Other committees". This is a <b>top-by-amount sample</b> (${r.sankey.records} records, ${fmt$(r.sankey.total)}), not the full universe — small spenders are underrepresented by design.</li>
+      <li><b>One ad can appear twice — and that's correct.</b> A single spot that backs one candidate while attacking the other is filed once per candidate (FEC Schedule E has one candidate + support/oppose box per line), each line carrying the full amount. So "Pro-Trump" and "Anti-Harris" bands partly describe the <i>same</i> ad buys (33 such pairs in the 2024 test walk, ~$39M) — don't sum across outcomes and expect it to equal cash spent. OpenSecrets totals work the same way.</li>
+      </ul></details>`;
+    h += `<p>Independent expenditures about ${a.label} and ${b.label} (Schedule E, ${r.sankey.records} records, ${fmt$(r.sankey.total)}): spender committee → Jev tactic → candidate outcome.</p><svg id="sankeySvg" width="960" height="520"></svg>`;
+    h += `<p class="sub">Top ${TOP_SPENDERS_N} spender committees shown individually; the rest rolled into "Other committees". Tactic layer reuses the same Jev cache as the bars (${r.sankey.new_mappings} new mappings this run). IE method: F24 24/48-hour notices excluded per FEC aggregate methodology (they double-count F3X entries); exact-duplicate lines collapsed. As-filed caveat: e.g. one $114M FOOD AND WATER ACTION line (org revenue ~$4M/yr) — filer errors persist in FEC data. Cross-check: OpenSecrets 2024 outside spending has Harris $1.31B / Trump $0.39B; this walk captures a top-by-amount subset.</p>`;
+  } else {
+    h += `<p class="sub">No independent-expenditure data for this matchup (both sides need candidate IDs and Schedule E filings).</p>`;
+  }
+  h += `</div>`;
+  $("results").innerHTML = h;
+  bar("cA", TACTICS, TACTICS.map(t => Math.round(a.spend_by_tactic[t] || 0)), a.label + " $ by tactic");
+  bar("cB", TACTICS, TACTICS.map(t => Math.round(b.spend_by_tactic[t] || 0)), b.label + " $ by tactic");
+  bar("dA", sectors, sectors.map(s => a.donor_by_sector[s] || 0), a.label + " donor sectors");
+  bar("dB", sectors, sectors.map(s => b.donor_by_sector[s] || 0), b.label + " donor sectors");
+  let sankeyDrawn = false;
+  $("tabBars").onclick = () => {
+    $("viewBars").style.display = ""; $("viewSankey").style.display = "none";
+    $("tabBars").className = "primary"; $("tabSankey").className = "";
+  };
+  $("tabSankey").onclick = () => {
+    $("viewBars").style.display = "none"; $("viewSankey").style.display = "";
+    $("tabBars").className = ""; $("tabSankey").className = "primary";
+    if (!sankeyDrawn && r.sankey && r.sankey.links.length) { drawSankey(r.sankey); sankeyDrawn = true; }
+  };
+  $("progress").innerHTML = "Done.";
+}
+
+function short$(n) {
+  if (n >= 1e9) return "$" + (n / 1e9).toFixed(1) + "B";
+  if (n >= 1e6) return "$" + (n / 1e6).toFixed(1) + "M";
+  if (n >= 1e3) return "$" + (n / 1e3).toFixed(0) + "K";
+  return "$" + n;
+}
+
+function drawSankey(s) {
+  const W = 960, H = 520;
+  const svg = d3.select("#sankeySvg");
+  svg.selectAll("*").remove();
+  const kinds = {};
+  s.nodes.forEach(n => kinds[n.id] = n.kind);
+  const sankey = d3.sankey().nodeWidth(16).nodePadding(12).extent([[1, 1], [W - 1, H - 6]]);
+  const graph = {
+    nodes: s.nodes.map(n => ({...n})),
+    links: s.links.map(l => ({...l})),
+  };
+  const idx = {};
+  graph.nodes.forEach((n, i) => idx[n.id] = i);
+  graph.links = graph.links.map(l => ({source: idx[l.source], target: idx[l.target], value: l.value}));
+  sankey(graph);
+  const color = k => k === "outcome-S" ? "#0a7" : k === "outcome-O" ? "#c33" : k === "tactic" ? "#d90" : "#889";
+  svg.append("g").selectAll("rect").data(graph.nodes).join("rect")
+    .attr("x", d => d.x0).attr("y", d => d.y0)
+    .attr("height", d => Math.max(1, d.y1 - d.y0)).attr("width", d => d.x1 - d.x0)
+    .attr("fill", d => color(d.kind)).append("title")
+    .text(d => `${d.label}\n${short$(d.value)}`);
+  svg.append("g").attr("font-size", 11).selectAll("text").data(graph.nodes).join("text")
+    .attr("x", d => d.x0 < W / 2 ? d.x1 + 5 : d.x0 - 5).attr("y", d => (d.y1 + d.y0) / 2)
+    .attr("dy", "0.35em").attr("text-anchor", d => d.x0 < W / 2 ? "start" : "end")
+    .text(d => d.label.length > 30 ? d.label.slice(0, 29) + "…" : d.label);
+  svg.append("g").attr("fill", "none").selectAll("path").data(graph.links).join("path")
+    .attr("d", d3.sankeyLinkHorizontal()).attr("stroke-width", d => Math.max(1, d.width))
+    .attr("stroke", d => {
+      const k = graph.nodes[d.target.index].kind;
+      return k === "outcome-S" ? "rgba(0,170,119,.45)" : k === "outcome-O" ? "rgba(204,51,51,.45)" : "rgba(100,100,100,.3)";
+    }).append("title").text(d => short$(d.value));
+}
+
+loadPresets().catch(e => { $("presets").innerHTML = "<p class='sub'>Failed to load presets: " + e + "</p>"; });
+</script>
+</body>
+</html>

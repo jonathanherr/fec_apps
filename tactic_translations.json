@@ -1,0 +1,4485 @@
+{
+ "meta": {
+  "model": "jev-1.13.0 (via jev-latest)",
+  "generated": "2026-10-03",
+  "description": "FEC Schedule B/E free-text disbursement purposes -> canonical spending tactics",
+  "tactics": [
+   "media",
+   "direct_contact",
+   "operations",
+   "transfers",
+   "legal_compliance",
+   "fundraising_ops",
+   "events"
+  ],
+  "entries": 744,
+  "low_confidence_below_0_8": 134,
+  "note": "Low-confidence rows are genuinely ambiguous strings; dollars behind them are small. Live cache: tactic_cache.json"
+ },
+ "mappings": [
+  {
+   "raw": "ACTUAL COST FOR  MAIL PIECE PRODUCTION, PRINTING AND POSTAGE AS DISCLOSED ON 10/16 48-HR REPORT",
+   "canonical": "direct_contact",
+   "confidence": 0.91,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ACTUAL COST FOR MAIL PIECE PRODUCTION, PRINTING AND POSTAGE AS DISCL ON 10/27 24-HR REPORT",
+   "canonical": "direct_contact",
+   "confidence": 0.89,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ACTUAL COST FOR MAIL PIECE PRODUCTION, PRINTING AND POSTAGE AS DISCLOSED ON 10/16 48-HR REPORT",
+   "canonical": "direct_contact",
+   "confidence": 0.86,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ACTUAL COST FOR TELEPHONE CALLS DISCLOSED ON 10/26 24-HOUR REPORT",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADDITIONAL PEER TO PEER TEXING 10/29-11/5 - ESTIMATE",
+   "canonical": "direct_contact",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "BUMPER STICKERS",
+   "canonical": "direct_contact",
+   "confidence": 0.54,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BUTTON PRINTING",
+   "canonical": "direct_contact",
+   "confidence": 0.34,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CAMPAIGN SIGNS",
+   "canonical": "direct_contact",
+   "confidence": 0.9,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CANDIDATE LITERATURE / DOOR HANGER",
+   "canonical": "direct_contact",
+   "confidence": 0.95,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CANVASS LITERATURE",
+   "canonical": "direct_contact",
+   "confidence": 0.92,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASS SUPPORTING JON TESTER",
+   "canonical": "direct_contact",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSER SALARIES AND BENEFITS FOR 10/14 - 10/27",
+   "canonical": "direct_contact",
+   "confidence": 0.77,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "CANVASSING #1818938",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING - ESTIMATE",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING 1818938",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING LITERATURE",
+   "canonical": "direct_contact",
+   "confidence": 0.95,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING LITERATURE; ALSO OPPOSING JACK SHEEHY",
+   "canonical": "direct_contact",
+   "confidence": 0.77,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING LITERATURE; ALSO OPPOSING TIM SHEEHY",
+   "canonical": "direct_contact",
+   "confidence": 0.65,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING SERVICES",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING STAFF WAGES FOR 10.20 - 11.02 (ESTIMATE)",
+   "canonical": "direct_contact",
+   "confidence": 0.77,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING STAFF WAGES FOR 10.6 - 10.21 (ESTIMATE)",
+   "canonical": "direct_contact",
+   "confidence": 0.83,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING STAFF WAGES FOR 11.04 - 11.26 (ESTIMATE)",
+   "canonical": "direct_contact",
+   "confidence": 0.86,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING VIA TEXT 10/1-10/16 TESTER ACTUAL",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING VIA TEXT 10/17-11/3 TESTER ACTUAL",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING VIA TEXT 10/17-11/4 TESTER ACTUAL",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING VIA TEXT 9/23-11/5 - ESTIMATE",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING VIA TEXT 9/23-9/30 TESTER ACTUAL",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANVASSING/FIELD OPERATIONS",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CAVASSING VIA TEXT 10/17-11/3 HARRIS ACTUAL",
+   "canonical": "direct_contact",
+   "confidence": 0.94,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "COLLATERAL MATERIALS- SHIRTS/HATS/SIGNS",
+   "canonical": "direct_contact",
+   "confidence": 0.71,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "COLLATERAL: PALM CARDS",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "COLLATERAL: PALM CARDS & YARD SIGNS",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "CONTRACT - CANVASS",
+   "canonical": "direct_contact",
+   "confidence": 0.92,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CONTRACT - MAILER",
+   "canonical": "direct_contact",
+   "confidence": 0.9,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIRECT MAIL",
+   "canonical": "direct_contact",
+   "confidence": 0.93,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIRECT MAIL - ESTIMATE",
+   "canonical": "direct_contact",
+   "confidence": 0.93,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIRECT MAIL - PAYMENT FOR IE TO BE DISSEMINATED ON 10/18",
+   "canonical": "direct_contact",
+   "confidence": 0.77,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIRECT MAIL ADVERTISING",
+   "canonical": "direct_contact",
+   "confidence": 0.91,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIRECT MAIL EXPENSE",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIRECT MAIL POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIRECT MAIL PRINTING",
+   "canonical": "direct_contact",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIRECT MAIL PRINTING & POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "DIRECT MAIL PROCESSING",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIRECT MAIL PROCESSING SERVICES",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "DIRECT MAIL SERVICES",
+   "canonical": "direct_contact",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIRECT MAIL SERVICES & POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "DIRECT MAIL SERVICES & SMS ADVERTISING",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "DIRECT MAIL SERVICES AND POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIRECT MAIL SHIPPING",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIRECT MAIL: PRINTING AND POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIRECT MAIL: PRINTING AND POSTAGE - SEE SCHEDULE B",
+   "canonical": "direct_contact",
+   "confidence": 0.84,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DOOR HANGER PRODUCTION",
+   "canonical": "direct_contact",
+   "confidence": 0.76,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DOOR HANGERS",
+   "canonical": "direct_contact",
+   "confidence": 0.87,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DOOR TO DOOR FIELD PROGRAM",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "EMAIL MARKETING",
+   "canonical": "direct_contact",
+   "confidence": 0.83,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "EMAIL MESSAGING",
+   "canonical": "direct_contact",
+   "confidence": 0.98,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "EMAIL SERVICES",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "EMAILS AND TEXT MESSAGES",
+   "canonical": "direct_contact",
+   "confidence": 0.84,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED AMOUNT - VOTER CONTACT TEXTING",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - DIRECT MAIL",
+   "canonical": "direct_contact",
+   "confidence": 0.7,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - TELEPHONE SERVICES",
+   "canonical": "direct_contact",
+   "confidence": 0.9,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - YARD SIGNS",
+   "canonical": "direct_contact",
+   "confidence": 0.88,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST FOR MAIL PIECE PRODUCTION, PRINTING AND POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.86,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "FIELD CANVASSING",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "FIELD CANVASSING (ESTIMATE)",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "FIELD CONSULTING WORK",
+   "canonical": "direct_contact",
+   "confidence": 0.53,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FIELD WORK",
+   "canonical": "direct_contact",
+   "confidence": 0.62,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FUNDRAISING / DIRECT MAIL",
+   "canonical": "direct_contact",
+   "confidence": 0.45,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FUNDRAISING MAILER - PRODUCTION AND POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.73,
+   "source": "jev-web"
+  },
+  {
+   "raw": "GOTV CANVASS",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "GOTV MAIL",
+   "canonical": "direct_contact",
+   "confidence": 0.94,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "GOTV P2P TEXT MESSAGES",
+   "canonical": "direct_contact",
+   "confidence": 0.63,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "GOTV POSTCARDS",
+   "canonical": "direct_contact",
+   "confidence": 0.91,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "GOTV ROBOCALLS",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "GOTV: LIVE CALLS",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-COLLINS-DIRECT MAIL PRODUCTION",
+   "canonical": "direct_contact",
+   "confidence": 0.83,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-SHEEHY-DIRECT MAIL PRODUCTION",
+   "canonical": "direct_contact",
+   "confidence": 0.42,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IN PERSON CANVASSING",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IN-KIND OFFSET: EMAIL COMMUNICATION / SMS MESSAGING",
+   "canonical": "direct_contact",
+   "confidence": 0.58,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "INDEPENDENT EXPENDITURE - YARD SIGNS",
+   "canonical": "direct_contact",
+   "confidence": 0.8,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "INDEPENDENT EXPENDITURE DOOR CANVAS",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "LABELS",
+   "canonical": "direct_contact",
+   "confidence": 0.73,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "LETTER IN SUPPORT OF TIM SHEEHY",
+   "canonical": "direct_contact",
+   "confidence": 0.47,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "LIST ACQUISITION",
+   "canonical": "direct_contact",
+   "confidence": 0.63,
+   "source": "jev-web"
+  },
+  {
+   "raw": "LIST BROKERAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.49,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "LIST BROKERAGE SERVICES",
+   "canonical": "direct_contact",
+   "confidence": 0.66,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "LISTS",
+   "canonical": "direct_contact",
+   "confidence": 0.55,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "LITERATURE DROP",
+   "canonical": "direct_contact",
+   "confidence": 0.91,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL",
+   "canonical": "direct_contact",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL AND PRINTSHOP",
+   "canonical": "direct_contact",
+   "confidence": 0.98,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL POSTAGE (ESTIMATE); ALSO OPPOSING DONALD TRUMP",
+   "canonical": "direct_contact",
+   "confidence": 0.87,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL POSTAGE/PRODUCTION",
+   "canonical": "direct_contact",
+   "confidence": 0.77,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL POSTAGE; ALSO OPPOSING DONALD TRUMP",
+   "canonical": "direct_contact",
+   "confidence": 0.87,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL POSTAGE; ALSO OPPOSING DONALD TRUMP - SEE SCHEDULE B",
+   "canonical": "direct_contact",
+   "confidence": 0.79,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL PRINTING, PRODUCTION & POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.9,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL PRINTING, PRODUCTION, & POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.87,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL PRINTING. PRODUCTION, & POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.84,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL PRODUCTION (FROM ADVANCE LINE 21)",
+   "canonical": "direct_contact",
+   "confidence": 0.94,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL PRODUCTION AND POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.94,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL PRODUCTION/POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL SERVICES",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MAILER",
+   "canonical": "direct_contact",
+   "confidence": 0.83,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAILER OPPOSING SUSAN COLLINS",
+   "canonical": "direct_contact",
+   "confidence": 0.68,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAILER POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.96,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAILER PRODUCTION",
+   "canonical": "direct_contact",
+   "confidence": 0.74,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAILERS",
+   "canonical": "direct_contact",
+   "confidence": 0.95,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAILHOUSE",
+   "canonical": "direct_contact",
+   "confidence": 0.91,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAILING LIST BROKERAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.7,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAILING PRINTING AND POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.91,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAILSHOP/POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAILSOP/POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MESSAGE PHONE CALLS",
+   "canonical": "direct_contact",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "NON-CONTRIBUTION ACCOUNT: CANVASSING",
+   "canonical": "direct_contact",
+   "confidence": 0.94,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PAID CANVASSING",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PAID PHONE CALLS",
+   "canonical": "direct_contact",
+   "confidence": 0.98,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "PAYMENT FOR ACTUAL COST OF POSTCARDS DISCLOSED ON 10/18 24-HOUR NOTICE",
+   "canonical": "direct_contact",
+   "confidence": 0.94,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PEER-TO-PEER MESSAGING",
+   "canonical": "direct_contact",
+   "confidence": 0.95,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PERSUASION CALLS",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PHONE BANK",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PHONE BANKING",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PHONE CALLS",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PHONE/TEXT MESSAGING",
+   "canonical": "direct_contact",
+   "confidence": 0.89,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PHONE/TEXT MESSAGING (FROM ADVANCE LINE 21)",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "POSTAGE (ESTIMATE)",
+   "canonical": "direct_contact",
+   "confidence": 0.96,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "POSTAGE / PRINTING / PRODUCTION",
+   "canonical": "direct_contact",
+   "confidence": 0.51,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "POSTAGE / PRINTING / PRODUCTION - FILED ON 07/23/2024",
+   "canonical": "direct_contact",
+   "confidence": 0.6,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "POSTAGE / PRINTING / PRODUCTION - FILED ON 07/30/2024",
+   "canonical": "direct_contact",
+   "confidence": 0.62,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "POSTAGE / PRINTING / PRODUCTION - FILED ON 08/06/2024",
+   "canonical": "direct_contact",
+   "confidence": 0.66,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "POSTAGE / PRINTING / PRODUCTION - FILED ON 08/12/2024",
+   "canonical": "direct_contact",
+   "confidence": 0.56,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "POSTAGE / PRINTING / PRODUCTION - FILED ON 08/13/2024",
+   "canonical": "direct_contact",
+   "confidence": 0.68,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "POSTAGE / PRINTING / PRODUCTION - FILED ON 08/19/2024",
+   "canonical": "direct_contact",
+   "confidence": 0.52,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "POSTAGE / PRINTING / PRODUCTION - FILED ON 08/20/2024",
+   "canonical": "direct_contact",
+   "confidence": 0.54,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "POSTAGE AND PROCESSING FOR POSTCARD MAILERS STARTING 5/15/26",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "POSTCARD MAILERS",
+   "canonical": "direct_contact",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "POSTCARDS",
+   "canonical": "direct_contact",
+   "confidence": 0.96,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRE-PAYMENT FOR DIRECT MAIL DISSEMINATED ON 10/3/24",
+   "canonical": "direct_contact",
+   "confidence": 0.89,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRINT AND MAILSHOP",
+   "canonical": "direct_contact",
+   "confidence": 0.9,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRINT/MAILSHOP",
+   "canonical": "direct_contact",
+   "confidence": 0.89,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRINTING / POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRINTING/POSTAGE",
+   "canonical": "direct_contact",
+   "confidence": 0.72,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRINTING: THANK YOU CARDS AND DONATION REMI ENVELOPES",
+   "canonical": "direct_contact",
+   "confidence": 0.64,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PRINTING: YARD SIGNS",
+   "canonical": "direct_contact",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PRINTING: YARD SIGNS AND BUMPER STICKERS",
+   "canonical": "direct_contact",
+   "confidence": 0.96,
+   "source": "jev-web"
+  },
+  {
+   "raw": "RELATIONAL ORGANIZING",
+   "canonical": "direct_contact",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "SIGNS",
+   "canonical": "direct_contact",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SMS ACQUISITION",
+   "canonical": "direct_contact",
+   "confidence": 0.78,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SMS ADVERTISING",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "SMS MESSAGING",
+   "canonical": "direct_contact",
+   "confidence": 0.69,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "SMS TEXTING",
+   "canonical": "direct_contact",
+   "confidence": 0.89,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "SMS TEXTING (ORIGINALLY REPORTED AS ESTIMATE ON 6/15/26)",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "SMS-VOTE SHEEHY",
+   "canonical": "direct_contact",
+   "confidence": 0.96,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SMS/MMS DEVELOPMENT SERVICES",
+   "canonical": "direct_contact",
+   "confidence": 0.62,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SMS/PHONE BANK",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "STAFF TIME AND EMAILS FOR ONLINE MESSAGE (VIA DRAWDOWN)",
+   "canonical": "direct_contact",
+   "confidence": 0.37,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "STAFF TIME FOR VOTER COMMUNICATIONS",
+   "canonical": "direct_contact",
+   "confidence": 0.37,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "STAFF TIME: PHONE BANKING",
+   "canonical": "direct_contact",
+   "confidence": 0.91,
+   "source": "jev-web"
+  },
+  {
+   "raw": "T-SHIRTS",
+   "canonical": "direct_contact",
+   "confidence": 0.79,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TELEMARKETING & DATA MANAGEMENT SERVICES",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "TELEMARKETING SERVICES",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "TELEPHONE CALLS",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TELEPHONE CALLS & TEXT MESSAGING SERVICES",
+   "canonical": "direct_contact",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TELEPHONE CALLS & TEXT MESSAGING SERVICES - ESTIMATE",
+   "canonical": "direct_contact",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXT MESSAGE OUTREACH",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "TEXT MESSAGES",
+   "canonical": "direct_contact",
+   "confidence": 0.79,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXT MESSAGING",
+   "canonical": "direct_contact",
+   "confidence": 0.64,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXT MESSAGING 11/4-11/5 (ESTIMATE)",
+   "canonical": "direct_contact",
+   "confidence": 0.71,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXT MESSAGING | ORIG RPT  ESTIMATE $150,000 10/15/24",
+   "canonical": "direct_contact",
+   "confidence": 0.73,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXT MESSAGING | ORIG RPT ESTIMATE $10,000 8/6/24",
+   "canonical": "direct_contact",
+   "confidence": 0.71,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXT MESSAGING | ORIG RPT ESTIMATE $100,000 10/15/24",
+   "canonical": "direct_contact",
+   "confidence": 0.78,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXT MESSAGING | ORIG RPT ESTIMATE $14,000 8/6/24",
+   "canonical": "direct_contact",
+   "confidence": 0.58,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXT MESSAGING | ORIG RPT ESTIMATE $15,000 6/27/24",
+   "canonical": "direct_contact",
+   "confidence": 0.69,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXT MESSAGING | ORIG RPT ESTIMATE $30,000 9/19/24",
+   "canonical": "direct_contact",
+   "confidence": 0.68,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXT MESSAGING | ORIG RPT ESTIMATE $3200 5/16/24",
+   "canonical": "direct_contact",
+   "confidence": 0.63,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXT MESSAGING | ORIG RPT ESTIMATE $45,000 6/27/24",
+   "canonical": "direct_contact",
+   "confidence": 0.67,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXT SERVICE",
+   "canonical": "direct_contact",
+   "confidence": 0.72,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXT SERVICES",
+   "canonical": "direct_contact",
+   "confidence": 0.77,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEXTING",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "TEXTING SERVICE",
+   "canonical": "direct_contact",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "TEXTING SERVICES",
+   "canonical": "direct_contact",
+   "confidence": 0.94,
+   "source": "jev-web"
+  },
+  {
+   "raw": "VOTER CONTACT TEXTING - ESTIMATED AMOUNT",
+   "canonical": "direct_contact",
+   "confidence": 0.92,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "VOTER CONTACT TEXTING - FINAL AMOUNT FOR ESTIMATE REPORTED ON 6/20",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "VOTER CONTACT TEXTING - FINAL AMOUNT FOR IE REPORTED ON 7/11",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "VOTER CONTACT TEXTING - FINAL AMOUNT FOR IE REPORTED ON 7/3",
+   "canonical": "direct_contact",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "VOTER CONTACT TEXTING - FINAL AMOUNT OF ESTIMATE REPORTED ON 5/3",
+   "canonical": "direct_contact",
+   "confidence": 0.92,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "VOTER CONTACT TEXTING - FINAL COST OF INDEPENDENT EXPENDITURE REPORTED ON 7/25/2026 - UNPAID",
+   "canonical": "direct_contact",
+   "confidence": 0.98,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "VOTER OUTREACH",
+   "canonical": "direct_contact",
+   "confidence": 0.94,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "YARD SIGNS",
+   "canonical": "direct_contact",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "AUDIO VISUAL EQUIPMENT & SERVICES",
+   "canonical": "events",
+   "confidence": 0.43,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "AUDIO VISUAL SERVICES & EQUIPMENT RENTAL",
+   "canonical": "events",
+   "confidence": 0.68,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "AUDIO VISUAL SERVICES & EVENT STAGING EXPENSE",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "AUDIO VISUAL SERVICES, EVENT STAGING EXPENSE & TRAVEL EXPENSES",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "AUDIO VISUAL SERVICES, EVENT STAGING EXPENSE, & TRAVEL EXPENSES",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "AUDIO/VIDEO EQUIPMENT",
+   "canonical": "events",
+   "confidence": 0.45,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CAMPAIGN EVENT",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CAMPAIGN EVENT BACKDROPS AND DISPLAYS",
+   "canonical": "events",
+   "confidence": 0.37,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CAMPAIGN EVENT ENTERTAINMENT",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "CAMPAIGN EVENT PRODUCTION",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "CATERING - ELECTION NIGHT",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CATERING FOR EVENT",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CATERING FOR TUESDAY LUNCH GROUP",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EQUIPMENT RENT",
+   "canonical": "events",
+   "confidence": 0.48,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EVENT CATERING",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EVENT ENTERTAINMENT",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EVENT EXPENSE: BROADCASTING",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "EVENT FEE",
+   "canonical": "events",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EVENT LOGISTICS CONSULTING",
+   "canonical": "events",
+   "confidence": 0.51,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EVENT PRODUCTION",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "EVENT PRODUCTION & AUDIO VISUAL SERVICES",
+   "canonical": "events",
+   "confidence": 0.99,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "EVENT PRODUCTION & EQUIPMENT RENTAL",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "EVENT PRODUCTION & SITE RENTAL",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "EVENT PRODUCTION & SITE RENTALS",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "EVENT PRODUCTION CONSULTING",
+   "canonical": "events",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EVENT PRODUCTION/AUDIO VISUAL SERVICES",
+   "canonical": "events",
+   "confidence": 0.99,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "EVENT REGISTRATION CROW FAIR WEEK",
+   "canonical": "events",
+   "confidence": 0.93,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EVENT SECURITY",
+   "canonical": "events",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EVENT SPACE",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EVENT SPACE RENT",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EVENT SPACE RENT AND CATERING",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EVENT SPACE RENT; FOOD AND BEVERAGE",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "EVENT SPONSORSHIP",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "EVENT SUPPLIES",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "FACILITY RENTAL",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "FACILITY RENTAL & CATERING",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "FACILITY RENTAL & CATERING SERVICES",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "FOOD AND BEVERAGE",
+   "canonical": "events",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FOOD AND VENUE FOR FUNDRAISER",
+   "canonical": "events",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FUNDRAISER CATERING AND SPACE RENT",
+   "canonical": "events",
+   "confidence": 0.84,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FUNDRAISER EVENT SPACE; FOOD AND BEVERAGE",
+   "canonical": "events",
+   "confidence": 0.81,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FUNDRAISER FOOD",
+   "canonical": "events",
+   "confidence": 0.6,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FUNDRAISER FOOD AND BEVERAGE",
+   "canonical": "events",
+   "confidence": 0.62,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FUNDRAISING EVENT CATERING",
+   "canonical": "events",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PHOTOGRAPHY SERVICES",
+   "canonical": "events",
+   "confidence": 0.98,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "SITE RENTAL",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "SPACE RENT",
+   "canonical": "events",
+   "confidence": 0.51,
+   "source": "jev-web"
+  },
+  {
+   "raw": "VENUE AND FOOD FOR MEET AND GREET",
+   "canonical": "events",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "VIDEOGRAPHY SERVICES",
+   "canonical": "events",
+   "confidence": 0.8,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "AGENCY FUNDRAISING FEE",
+   "canonical": "fundraising_ops",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BANK FEES",
+   "canonical": "fundraising_ops",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CC TRANSACTION FEES",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CONTRIBUTION REFUND",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "CREDIT CARD EXPENDITURES: TRAVEL, OFFICE SUPPLIES, FUNDRAISING EVENT: SEE MEMO ENTRY",
+   "canonical": "fundraising_ops",
+   "confidence": 0.64,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CREDIT CARD FEES",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CREDIT CARD PAYMENT",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "CREDIT CARD PAYMENT (VENDORS THAT AGGREGATE OVER $200 LISTED BELOW)",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CREDIT CARD PAYMENT - SEE BELOW IF ITEMIZED",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CREDIT CARD PAYMENT: SEE ITEMIZATION(S) IF REQUIRED",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "CREDIT CARD PAYMENT: SEE ITEMIZATIONS IF REQUIRED",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "CREDIT CARD PROCESSING FEE",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CREDIT CARD PROCESSING FEES",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIGITAL FUNDRAISING",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "DIRECT MAIL FUNDRAISING",
+   "canonical": "fundraising_ops",
+   "confidence": 0.56,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DONOR THANK YOUS",
+   "canonical": "fundraising_ops",
+   "confidence": 0.38,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FUNDRAISING",
+   "canonical": "fundraising_ops",
+   "confidence": 0.96,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FUNDRAISING CONSULTANT",
+   "canonical": "fundraising_ops",
+   "confidence": 0.67,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FUNDRAISING CONSULTING",
+   "canonical": "fundraising_ops",
+   "confidence": 0.42,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FUNDRAISING EMAIL",
+   "canonical": "fundraising_ops",
+   "confidence": 0.46,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "FUNDRAISING FEES",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "FUNDRAISING SERVICES",
+   "canonical": "fundraising_ops",
+   "confidence": 0.95,
+   "source": "jev-web"
+  },
+  {
+   "raw": "IE- COLLINS - DONATION PROCESSING",
+   "canonical": "fundraising_ops",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MERCHANT FEES",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "PERSONAL FUNDS - CANDIDATE LOAN",
+   "canonical": "fundraising_ops",
+   "confidence": 0.27,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PROCESSING FEE",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REFUND",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REFUND OF CONTRIBUTION",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REFUND: CONTRIBUTION REFUND",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REFUND: REFUND",
+   "canonical": "fundraising_ops",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REFUND: REFUND CONTRIBUTION OVER LIMIT",
+   "canonical": "fundraising_ops",
+   "confidence": 0.94,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REFUND: REFUND OF CONTRIBUTION",
+   "canonical": "fundraising_ops",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REFUND: REFUND OVER LIMIT",
+   "canonical": "fundraising_ops",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SERVICE FEE",
+   "canonical": "fundraising_ops",
+   "confidence": 0.9,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "THANK YOU INVOICE",
+   "canonical": "fundraising_ops",
+   "confidence": 0.36,
+   "source": "jev-web"
+  },
+  {
+   "raw": "THANK YOUS",
+   "canonical": "fundraising_ops",
+   "confidence": 0.52,
+   "source": "jev-web"
+  },
+  {
+   "raw": "WEB PROCESSING FEES",
+   "canonical": "fundraising_ops",
+   "confidence": 0.89,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BOOKKEEPING & COMPLIANCE",
+   "canonical": "legal_compliance",
+   "confidence": 0.94,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BOOKKEEPING &AMP; COMPLIANCE",
+   "canonical": "legal_compliance",
+   "confidence": 0.93,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BOOKKEEPING AND COMPLIANCE",
+   "canonical": "legal_compliance",
+   "confidence": 0.89,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CAMPAIGN CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "CAMPAIGN MANAGEMENT CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "COMMUNICATIONS & LEGAL CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "COMMUNICATIONS & POLITICAL STRATEGY CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 0.99,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "COMMUNICATIONS CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 0.89,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "COMMUNICATIONS CONSULTING & RESEARCH CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "COMPLIANCE CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "COMPLIANCE SERVICES",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CONTRACT",
+   "canonical": "legal_compliance",
+   "confidence": 0.58,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "FEDERAL PAYROLL TAX",
+   "canonical": "legal_compliance",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FEDERAL TAXES",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FIELD AND DIGITAL CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 0.52,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FIELD CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 0.83,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FIELD WORK AND COMMUNICATIONS CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 0.72,
+   "source": "jev-web"
+  },
+  {
+   "raw": "GENERAL CAMPAIGN CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "GENERAL CAMPAIGN CONSULTING/OFFICE SUPPLIES",
+   "canonical": "legal_compliance",
+   "confidence": 0.6,
+   "source": "jev-web"
+  },
+  {
+   "raw": "GRASSROOTS CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 0.86,
+   "source": "jev-web"
+  },
+  {
+   "raw": "LEGAL CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "LEGAL CONSULTING & TRAVEL EXPENSES",
+   "canonical": "legal_compliance",
+   "confidence": 0.88,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "LEGAL FEES",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "LEGAL SERVICES",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "MT PAYROLL TAX",
+   "canonical": "legal_compliance",
+   "confidence": 0.95,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PAYROLL TAXES & SERVICES",
+   "canonical": "legal_compliance",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PAYROLL TAXES & WITHHOLDINGS",
+   "canonical": "legal_compliance",
+   "confidence": 0.97,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "PAYROLL TAXES AND FEES",
+   "canonical": "legal_compliance",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "POLITICAL CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "POLITICAL STRATEGY CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "POLITICAL STRATEGY CONSULTING & TRAVEL EXPENSES",
+   "canonical": "legal_compliance",
+   "confidence": 0.96,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "POLLING",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "POLLING EXPENSE",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "QUALIFYING FEE",
+   "canonical": "legal_compliance",
+   "confidence": 0.67,
+   "source": "jev-web"
+  },
+  {
+   "raw": "RESEARCH",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "RESEARCH CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "RESEARCH CONSULTING AND RENT",
+   "canonical": "legal_compliance",
+   "confidence": 0.94,
+   "source": "jev-web"
+  },
+  {
+   "raw": "RESEARCH CONSULTING AND SPACE RENT",
+   "canonical": "legal_compliance",
+   "confidence": 0.91,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SPONSORSHIP EXPENSE",
+   "canonical": "legal_compliance",
+   "confidence": 0.24,
+   "source": "jev-web"
+  },
+  {
+   "raw": "STRATEGY CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SURVEY",
+   "canonical": "legal_compliance",
+   "confidence": 0.57,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SURVEY RESEARCH",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "TAXES",
+   "canonical": "legal_compliance",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "VIDEO PRODUCTION SERVICES & POLITICAL STRATEGY CONSULTING",
+   "canonical": "legal_compliance",
+   "confidence": 0.74,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "ACTUAL COST FOR DIGITAL ADVERTISING AS DISCLOSED ON 10/10 48-HR REPORT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ACTUAL COST FOR DIGITAL COMMUNICATIONS AS DISCLOSED ON 10/24 24-HR REPORT",
+   "canonical": "media",
+   "confidence": 0.9,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ACTUAL COST FOR DISTRIBUTION OF DIGITAL ADS AS DISCLOSED ON 10/31 24-HR REPORT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ACTUAL COST FOR PRODUCTION AND DISTRIBUTION OF DIGITAL ADS AS DISCLOSED ON 10/16 48-HR REPORT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "AD BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "AD BUY AND PRODUCTION COSTS, 30 SECOND AD",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "AD CONSULTING",
+   "canonical": "media",
+   "confidence": 0.55,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "AD PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADS SUPPORTING JON TESTER",
+   "canonical": "media",
+   "confidence": 0.98,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISEMENT PRO SHEEHY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING - CABLE - AMPERSAND",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING - DIGITAL",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING - NON-CONTRIBUTION ACCOUNT",
+   "canonical": "media",
+   "confidence": 0.85,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING FOX NEWS JANUARY 6 AD (ESTIMATE)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING TEXT MESSAGING",
+   "canonical": "media",
+   "confidence": 0.66,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING- CABLE RVAT COMP HARRIS",
+   "canonical": "media",
+   "confidence": 0.94,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-BROADCAST TV",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-BROADCAST TV - RVAT COMP",
+   "canonical": "media",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-BROADCAST TV HARRIS COMP",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-BROADCAST TV JACKIE",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-BROADCAST TV TOM",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-BROADCAST TV- MATT (ID)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-CTV",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-CTV AUGUST CAMPAIGN",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-CTV AUGUST CAMPAIGN HULU",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-CTV AUGUST CAMPAIGN KATZ",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-CTV AUGUST CAMPAIGN LG",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-CTV HULU",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-CTV KATZ DIGITAL",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-CTV LG",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-CTV ROKU",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-TEXTING",
+   "canonical": "media",
+   "confidence": 0.76,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-YOUTUBE  (ESTIMATE)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING-YOUTUBE (ESTIMATE)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING; BILLBOARDS",
+   "canonical": "media",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISING; TELEVISION ADVERTISEMENT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISNG TV",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ADVERTISNG TV - UPDATED ESTIMATE TO ACTUAL PER PAYMENT ON BANK STATEMENT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "AUDIO VISUAL SERVICES",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "BALANCE OF PRE-GENERAL DIGITAL ADVERTISING PROGRAM",
+   "canonical": "media",
+   "confidence": 0.98,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "BILLBOARD & DIGITAL ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "BILLBOARD ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "BILLBOARD ADVERTISING BUY (ESTIMATE)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "BILLBOARD ADVERTISING BUY; SEE LINE 21(B)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "BILLBOARD RENTAL",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CABLE ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CABLE TV ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CABLE, STREAMING, AND SOCIAL MEDIA VIDEO ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CABLE/SATELLITE ADS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "COMMUNICATIONS & DIGITAL CONSULTING",
+   "canonical": "media",
+   "confidence": 0.91,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "CONTINUATION OF PREVIOUS 30 SECOND AD BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "COPY AND PRODUCTION",
+   "canonical": "media",
+   "confidence": 0.92,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "COPY AND PRODUCTION SERVICES",
+   "canonical": "media",
+   "confidence": 0.93,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "COPY AND PRODUCTION SERVICES; INTEREST",
+   "canonical": "media",
+   "confidence": 0.89,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "COPY AND PRODUCTION SERVICES; INTEREST (ESTIMATE)",
+   "canonical": "media",
+   "confidence": 0.84,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DEBT PMT: STICKERS / CREATIVE DESIGN SERVICES",
+   "canonical": "media",
+   "confidence": 0.35,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL & PRINT ADVERTISING & PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL & PRINT ADVERTISING & PRODUCTION - ESTIMATE",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL & PRINT ADVERTISING (ESTIMATE)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL AD BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL AD BUY & PRODUCTION; ALSO OPPOSING DONALD TRUMP (PARTIALLY PAID 7/16/2024, SEE SCHEDULE B)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL AD BUY (ESTIMATE)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL AD BUY, FACEBOOK DISPLAY & SET UP",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL AD CAMPAIGN",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL AD PLACEMENT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL AD PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADS (ACTUAL; ESTIMATE REPORTED 10/18)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING & PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING & PRODUCTION - STEADY HAND DAY ONE",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING (ACTUAL - ESTIMATE REPORTED AS $20,200)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING (ACTUAL - ESTIMATE REPORTED AS $6K)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING (ACTUAL COST OF ESTIMATED IE ON 48-HR RPT FILED 10/8/24)",
+   "canonical": "media",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING (ACTUAL)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING (ESTIMATE)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING (PLACEMENT)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING (SEE [SB21B:6966; SB21B:6967])",
+   "canonical": "media",
+   "confidence": 0.98,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING - ESTIMATE",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING - NON-CONTRIBUTION ACCOUNT",
+   "canonical": "media",
+   "confidence": 0.96,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING - SEE SCH B",
+   "canonical": "media",
+   "confidence": 0.94,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING AND PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING BUY & PRODUCTION; ALSO OPPOSING DONALD TRUMP",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING BUY (ESTIMATE)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING BUY: ACTUAL COST",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING PLACEMENT (ESTIMATE)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING PRODUCTION AND AD BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ADVERTISING; IE-ONLY ACCOUNT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL AND FUNDRAISING CONSULTING",
+   "canonical": "media",
+   "confidence": 0.48,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIGITAL AND MEDIA AD BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL AUDIO PRODUCTION AND BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL CONSULTING",
+   "canonical": "media",
+   "confidence": 0.88,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "DIGITAL CONSULTING & VIDEO PRODUCTION SERVICES",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "DIGITAL CONSULTING, ONLINE ADVERTISING & LIST RENTAL",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "DIGITAL FUNDRAISING & ONLINE ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "DIGITAL FUNDRAISING / FUNDRAISING CONSULTING",
+   "canonical": "media",
+   "confidence": 0.63,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIGITAL FUNDRAISING AND ADVERTISING",
+   "canonical": "media",
+   "confidence": 0.96,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIGITAL FUNDRAISING SERVICES",
+   "canonical": "media",
+   "confidence": 0.76,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIGITAL MARKETING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIGITAL MEDIA",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL MEDIA AD BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIGITAL MEDIA AD BUY / DIGITAL FUNDRAISING CONSULTING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIGITAL MEDIA BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL MEDIA BUY 'AMERICA' AD",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL MEDIA BUY AND PRODUCTION COSTS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL MEDIA PLACEMENT / DIGITAL MEDIA PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL MEDIA PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIGITAL MEDIA PRODUCTION & BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL MEDIA PRODUCTION / PLACEMENT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL MEDIA PRODUCTION COSTS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL ORGANIZING",
+   "canonical": "media",
+   "confidence": 0.34,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIGITAL PLACEMENT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL PLACEMENT AND PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL PRODUCTION COSTS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIGITAL RETAINER",
+   "canonical": "media",
+   "confidence": 0.56,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DIGITAL VIDEO PRODUCTION AND BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DIRECT MAIL ADVERTISING BUY",
+   "canonical": "media",
+   "confidence": 0.5,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DISSEMINATION OF DIGITAL ADS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - BILLBOARD ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - BILLBOARDS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - DIGITAL ADS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - DIGITAL ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - HIGHWAY SIGNS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - NEWSPAPER AD",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - NEWSPAPER ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - RADIO & DIGITAL ADS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST FOR PRODUCTION AND DISSEMINATION OF DIGITAL ADVERTISING  RUNNING 7/29-8/17",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "GIF ADS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "GRAPHIC DESIGN",
+   "canonical": "media",
+   "confidence": 0.87,
+   "source": "jev-web"
+  },
+  {
+   "raw": "GRAPHIC DESIGN CONSULTING",
+   "canonical": "media",
+   "confidence": 0.37,
+   "source": "jev-web"
+  },
+  {
+   "raw": "IE DIGITAL MEDIA AD PLACEMENT OPPOSE JON TESTER - MT SENATE",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE NEWSPAPER ADVERTISING PLACEMENT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE- COLLINS- DIGITAL MARKETING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-COLLINS-DIGITAL ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-COLLINS-DIGITAL MARKETING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-COLLINS-DIGITALPRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-HARRIS-DIGITAL",
+   "canonical": "media",
+   "confidence": 0.98,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-HARRIS-DIGITAL ADS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-HARRIS-DIGITAL MEDIA",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-HARRIS-MEDIA BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-HARRIS-MEDIA BUY/MEDIA PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-HARRIS-MEDIA PRODUCTION/MEDIA BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-SHEEHY-DIGITAL ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-SHEEHY-MEDIA BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IE-SHEEHY-MEDIA PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "IN-KIND - OUTDOOR ADVERTISING: BILLBOARDS",
+   "canonical": "media",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "INCREASE FREQUENCY OF AD PREVIOUSLY REPORTED ID 4017",
+   "canonical": "media",
+   "confidence": 0.98,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "JFC DIGITAL MARKETING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MAGAZINE AD",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL PRODUCTION (ESTIMATE); ALSO OPPOSING DONALD TRUMP",
+   "canonical": "media",
+   "confidence": 0.55,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL PRODUCTION; ACTUAL COST - ESTIMATE REPORTED ON 10/26; ALSO OPPOSING DONALD TRUMP",
+   "canonical": "media",
+   "confidence": 0.46,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAIL PRODUCTION; ALSO OPPOSING DONALD TRUMP",
+   "canonical": "media",
+   "confidence": 0.5,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAILER PRODUCTION (ESTIMATE); ALSO OPPOSING DONALD TRUMP",
+   "canonical": "media",
+   "confidence": 0.62,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MAILER PRODUCTION; ALSO OPPOSING DONALD TRUMP",
+   "canonical": "media",
+   "confidence": 0.74,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA AND DIGITAL BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "MEDIA BUY & PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "MEDIA BUY - ESTIMATE",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA BUY AND AD SERVICING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA BUY AND AD SERVICING (ESTIMATE)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA BUY AND PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "MEDIA BUY AND PRODUCTION - ESTIMATE",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA BUY ESTIMATE",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA CONSULTING",
+   "canonical": "media",
+   "confidence": 0.99,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "MEDIA PLACEMENT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PLACEMENT & PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PLACEMENT / MEDIA PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PLACEMENT AND PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MEDIA PLACEMENT/TEXT MESSAGING",
+   "canonical": "media",
+   "confidence": 0.75,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PLACEMENT/VIDEO ADS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "MEDIA PRODUCTION / MEDIA PLACEMENT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PRODUCTION / PLACEMENT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PRODUCTION AND BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PRODUCTION AND TIME BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PRODUCTION COSTS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PRODUCTION ESTIMATE",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PRODUCTION | ORIG RPT ESTIMATE $100,965 10/22/24",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PRODUCTION | ORIG RPT ESTIMATE $30,000 6/27/24",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PRODUCTION/PLACEMENT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PRODUCTION/PLACEMENT/WEBSITE",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA PURCHASE",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MEDIA SPEND",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA: DIGITAL",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA: RADIO",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA: TELEVISION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MEDIA: TELEVISON",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "MERCHANDISE PRINTING",
+   "canonical": "media",
+   "confidence": 0.31,
+   "source": "jev-web"
+  },
+  {
+   "raw": "NEWSPAPER ADS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "NEWSPAPER ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "NON-CONTRIBUTION ACCOUNT - TRUCK BILLBOARD ADS",
+   "canonical": "media",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "NON-CONTRIBUTION ACCT: ONLINE ADVERTISING / EMAIL COMMUNICATION / SMS MESSAGES",
+   "canonical": "media",
+   "confidence": 0.61,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ONLINE ADS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ONLINE ADS | ORIG RPT ESTIMATE $10,000 10/15/24",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ONLINE ADS | ORIG RPT ESTIMATE $10,000 10/16/24",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ONLINE ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "ONLINE ADVERTISING - FILED ON 09/03/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ONLINE ADVERTISING - FILED ON 09/10/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ONLINE ADVERTISING - FILED ON 09/17/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ONLINE ADVERTISING - FILED ON 09/24/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ONLINE ADVERTISING - FILED ON 10/01/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ONLINE ADVERTISING - FILED ON 10/08/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ONLINE ADVERTISING - FILED ON 10/15/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ONLINE ADVERTISING - FILED ON 10/22/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ONLINE ADVERTISING - FILED ON 10/29/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ONLINE CONTENT & PRODUCTION",
+   "canonical": "media",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ONLINE VIDEO PRODUCTION COSTS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PAID MEDIA",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "PARTIAL PAYMENT FOR PRODUCTION AND DISSEMINATION OF DIGITAL ADS AS DISCL ON 9/18 48-HR REPORT",
+   "canonical": "media",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PHOTOGRAPHY",
+   "canonical": "media",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PLACED MEDIA",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "PLACED MEDIA: CONNECTED TV",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PLACED MEDIA: RADIO",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PLACED MEDIA: RADIO (ACTUAL)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PLACED MEDIA: TV",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PLACED MEDIA: TV (SEE [SB21B:6965])",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PMT FOR EST FROM 10/1/2024. ADVERTISING-BROADCAST TV",
+   "canonical": "media",
+   "confidence": 0.98,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PMT FOR EST FROM 10/1/2024. ADVERTISING-YOUTUBE ACTUAL",
+   "canonical": "media",
+   "confidence": 0.98,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PMT FOR EST FROM 10/16/2024. ADVERTISING-YOUTUBE ACTUAL",
+   "canonical": "media",
+   "confidence": 0.99,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "POLITICAL ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRE-PAYMENT FOR FUTURE BILLBOARDS IN MONTANA",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRINT ADVERTISEMENT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRINT COMMUNICATIONS",
+   "canonical": "media",
+   "confidence": 0.49,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRINTING",
+   "canonical": "media",
+   "confidence": 0.55,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PRINTING (ESTIMATE)",
+   "canonical": "media",
+   "confidence": 0.59,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRODUCTION AND DIGITAL PLACEMENT - 10/29",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRODUCTION AND PLACEMENT OF DIGITAL MEDIA AD TO OPPOSE JON TESTER",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRODUCTION COST: TV AD",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRODUCTION COST: TV AND DIGITAL AD",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRODUCTION OF DIGITAL ADS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PRODUCTION OF DIGITAL ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO / DIGITAL AUDIO PLACEMENT AND PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO ADVERTISEMENT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO ADVERTISEMENTS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO ADVERTISING - ESTIMATE",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO ADVERTISING BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO MEDIA BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO PLACEMENT - FILED ON 09/03/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO PLACEMENT - FILED ON 09/10/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO PLACEMENT - FILED ON 09/17/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO PLACEMENT - FILED ON 09/24/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO PLACEMENT - FILED ON 10/01/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO PLACEMENT - FILED ON 10/08/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO PLACEMENT - FILED ON 10/15/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO PLACEMENT - FILED ON 10/22/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "RADIO PLACEMENT - FILED ON 10/29/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "SATELLITE AND CABLE TV, DIGITAL, RADIO ADVERTISEMENTS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "STICKERS / CREATIVE DESIGN SERVICES",
+   "canonical": "media",
+   "confidence": 0.53,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "STREAMING AUDIO ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TARGETING FOR ADS SUPPORTING JON TESTER",
+   "canonical": "media",
+   "confidence": 0.94,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TEAMSTERS 2024 GOTV DIGITAL ADS",
+   "canonical": "media",
+   "confidence": 0.98,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TELEVISION ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TELEVISION ADVERTISING PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV AD BUY",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV AD BUY (ESTIMATE)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV AD PLACEMENT",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV AD PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV ADS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV ADVERTISING (PLACEMENT)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV ADVERTSING (PLACEMENT)",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV AND DIGITAL ADVERTISING",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV AND DIGITAL ADVERTISING PLACEMENT STOP THE STEAL",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV AND STREAMING VIDEO ADS",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV MEDIA PLACEMENT - 'MOMENTS'",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PLACEMENT - FILED ON 09/03/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PLACEMENT - FILED ON 09/10/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PLACEMENT - FILED ON 09/17/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PLACEMENT - FILED ON 09/24/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PLACEMENT - FILED ON 10/01/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PLACEMENT - FILED ON 10/08/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PLACEMENT - FILED ON 10/15/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PLACEMENT - FILED ON 10/22/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PLACEMENT - FILED ON 10/29/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 09/03/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 09/10/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 09/12/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 09/17/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 09/22/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 09/24/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 09/30/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 10/01/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 10/08/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 10/09/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 10/15/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 10/18/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 10/22/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "TV/MEDIA PRODUCTION - FILED ON 10/29/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "VIDEO MEDIA",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "VIDEO PRODUCTION",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "VIDEO PRODUCTION SERVICES",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "WEB AD - FILED ON 09/03/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEB AD - FILED ON 09/10/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEB AD - FILED ON 09/12/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEB AD - FILED ON 09/17/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEB AD - FILED ON 09/24/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEB AD - FILED ON 09/30/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEB AD - FILED ON 10/01/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEB AD - FILED ON 10/08/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEB AD - FILED ON 10/09/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEB AD - FILED ON 10/15/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEB AD - FILED ON 10/18/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEB AD - FILED ON 10/22/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEB AD - FILED ON 10/27/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEB AD - FILED ON 10/29/2024",
+   "canonical": "media",
+   "confidence": 1.0,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEBSITE ENDORSEMENT",
+   "canonical": "media",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ACTUAL PAYROLL, TAXES AND BENEFITS FOR CANVASS TEAM",
+   "canonical": "operations",
+   "confidence": 0.83,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "AIR TRAVEL",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "AIR TRAVEL  (ERRONENOUSLY REPORTED AS BLUE MOUNTAIN)",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "AIRFARE",
+   "canonical": "operations",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "APPAREL",
+   "canonical": "operations",
+   "confidence": 0.56,
+   "source": "jev-web"
+  },
+  {
+   "raw": "APRIL 2024",
+   "canonical": "operations",
+   "confidence": 0.59,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BENTLER MILEAGE REIMBURSEMENT OFFICE SUPPLIES, POSTAGE, TRAVEL",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "BENTLER REIMBURSEMENT: SEE MEMO ENTRY",
+   "canonical": "operations",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CAGING SERVICE",
+   "canonical": "operations",
+   "confidence": 0.64,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CAGING SERVICES",
+   "canonical": "operations",
+   "confidence": 0.37,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CANDIDATE RESIDENTIAL SECURITY SYSTEM",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CELL PHONE STIPEND",
+   "canonical": "operations",
+   "confidence": 0.75,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DATA ACQUISITION",
+   "canonical": "operations",
+   "confidence": 0.95,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DATA MANAGEMENT",
+   "canonical": "operations",
+   "confidence": 0.98,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DATA PROCESSING",
+   "canonical": "operations",
+   "confidence": 0.91,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "DATA PROCESSING SERVICES",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "DATA SERVICES",
+   "canonical": "operations",
+   "confidence": 0.99,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "DATA SERVICES & TRAVEL EXPENSES",
+   "canonical": "operations",
+   "confidence": 0.99,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "DATABASE",
+   "canonical": "operations",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "DATABASE SUBSCRIPTION",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "DIGITAL CONSULTING & SOFTWARE",
+   "canonical": "operations",
+   "confidence": 0.75,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "DIGITAL SECURITY",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "DOMAIN PURCHASE",
+   "canonical": "operations",
+   "confidence": 0.79,
+   "source": "jev-web"
+  },
+  {
+   "raw": "ESTIMATE OF PAYROLL, TAXES AND BENEFITS FOR CANVASS TEAM",
+   "canonical": "operations",
+   "confidence": 0.92,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - STAFF SALARIES & BENEFITS",
+   "canonical": "operations",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - STAFF SALARIES & BENEFITS FOR CANVASS",
+   "canonical": "operations",
+   "confidence": 0.44,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST - STAFF SALARIES & BENEFITS FOR CANVASSING",
+   "canonical": "operations",
+   "confidence": 0.58,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST FOR STAFF TIME",
+   "canonical": "operations",
+   "confidence": 0.97,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "ESTIMATED COST FOR STAFF TIME FOR VOTER COMMUNICATIONS",
+   "canonical": "operations",
+   "confidence": 0.68,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "EXPENSE REIMBURSEMENT",
+   "canonical": "operations",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FELLOW STIPEND",
+   "canonical": "operations",
+   "confidence": 0.95,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FINANCE AND COMPLIANCE SOFTWARE",
+   "canonical": "operations",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FLIGHTS",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "FUNDRAISING AND COMPLIANCE SOFTWARE",
+   "canonical": "operations",
+   "confidence": 0.51,
+   "source": "jev-web"
+  },
+  {
+   "raw": "HEALTH INSURANCE",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "HEALTHCARE STIPEND",
+   "canonical": "operations",
+   "confidence": 0.96,
+   "source": "jev-web"
+  },
+  {
+   "raw": "HOST GIFTS",
+   "canonical": "operations",
+   "confidence": 0.19,
+   "source": "jev-web"
+  },
+  {
+   "raw": "INSURANCE",
+   "canonical": "operations",
+   "confidence": 0.98,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "INTERPRETING SERVICES",
+   "canonical": "operations",
+   "confidence": 0.59,
+   "source": "jev-web"
+  },
+  {
+   "raw": "IT SERVICES",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "IT SERVICES & OFFICE EQUIPMENT",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "LICENSING FEES",
+   "canonical": "operations",
+   "confidence": 0.98,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "LODGING",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "MEAL",
+   "canonical": "operations",
+   "confidence": 0.48,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MERCHANDISE AND INVENTORY",
+   "canonical": "operations",
+   "confidence": 0.56,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MILEAGE",
+   "canonical": "operations",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MITA REIMBURSEMENT: SEE MEMO ENTRIES",
+   "canonical": "operations",
+   "confidence": 0.96,
+   "source": "jev-web"
+  },
+  {
+   "raw": "MITA REIMBURSEMENT: SEE MEMO ENTRY",
+   "canonical": "operations",
+   "confidence": 0.98,
+   "source": "jev-web"
+  },
+  {
+   "raw": "OFFICE CLEANING",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "OFFICE EQUIPMENT",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "OFFICE RENT",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "OFFICE SUPPLIES",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PAYMENT FOR CANVASS SALARY DISCLOSED ON SCHEDULE D OF OCTOBER QUARTERLY REPORT",
+   "canonical": "operations",
+   "confidence": 0.8,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PAYROLL",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "PAYROLL (VENDORS THAT AGGREGATE OVER $200 LISTED BELOW)",
+   "canonical": "operations",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PAYROLL - SEE BELOW IF ITEMIZED",
+   "canonical": "operations",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PAYROLL AND PAYROLL TAXES",
+   "canonical": "operations",
+   "confidence": 0.43,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PAYROLL SERVICES",
+   "canonical": "operations",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PAYROLL TAXES",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "PAYROLL WAGES",
+   "canonical": "operations",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PAYROLL(VENDORS THAT AGGREGATE OVER $200 LISTED BELOW)",
+   "canonical": "operations",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PAYROLL, TAXES AND BENEFITS FOR CANVASS TEAM",
+   "canonical": "operations",
+   "confidence": 0.84,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "PO BOX AND SHIPPING REIMBURSEMENT",
+   "canonical": "operations",
+   "confidence": 0.73,
+   "source": "jev-web"
+  },
+  {
+   "raw": "POSTAGE AND SHIPPING REIMBURSEMENT",
+   "canonical": "operations",
+   "confidence": 0.54,
+   "source": "jev-web"
+  },
+  {
+   "raw": "PRINTING & COPYING",
+   "canonical": "operations",
+   "confidence": 0.51,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "REIMBURSEMENT",
+   "canonical": "operations",
+   "confidence": 0.97,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REIMBURSEMENT - AIRFARE",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REIMBURSEMENT - CANDIDATE RESIDENTIAL SECURITY SYSTEM",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REIMBURSEMENT - EVENT SUPPLIES, VOLUNTEER FOOD AND BEVERAGE, TRANSPORTATION",
+   "canonical": "operations",
+   "confidence": 0.42,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REIMBURSEMENT - FOOD AND BEVERAGE, TRAVEL",
+   "canonical": "operations",
+   "confidence": 0.93,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REIMBURSEMENT - LODGING, TRANSPORTATION",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REIMBURSEMENT FUNDRAISING MEAL + BEVERAGES/TRAVEL",
+   "canonical": "operations",
+   "confidence": 0.5,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REIMBURSEMENT FUNDRAISING MEAL/TRAVEL",
+   "canonical": "operations",
+   "confidence": 0.6,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REIMBURSEMENT SEE MEMO ENTRY",
+   "canonical": "operations",
+   "confidence": 0.9,
+   "source": "jev-web"
+  },
+  {
+   "raw": "REIMBURSEMENT: TRAVEL: GROUND TRANSPORTATION",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "REIMBURSMENT",
+   "canonical": "operations",
+   "confidence": 0.96,
+   "source": "jev-web"
+  },
+  {
+   "raw": "RENT",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "RENT: OFFICE SPACE, CONFERENCE ROOM, ADMINISTRATIVE LABOR",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SALARY",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SECURITY CONSULTING",
+   "canonical": "operations",
+   "confidence": 0.67,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SECURITY CONSULTING + TRAVEL REIMBURSMENT",
+   "canonical": "operations",
+   "confidence": 0.92,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SECURITY DEPOSIT",
+   "canonical": "operations",
+   "confidence": 0.93,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SECURITY SERVICES",
+   "canonical": "operations",
+   "confidence": 0.95,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "SECURITY SERVICES & TRAVEL EXPENSES",
+   "canonical": "operations",
+   "confidence": 0.97,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "SHEEHY REIMBURSEMENT: SEE MEMO ENTRIES",
+   "canonical": "operations",
+   "confidence": 0.92,
+   "source": "jev-web"
+  },
+  {
+   "raw": "SOFTWARE",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "SOFTWARE SUBSCRIPTION",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "STAFF HEALTH INSURANCE",
+   "canonical": "operations",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "STAFF TIME & EMAILS FOR ONLINE MESSAGE (VIA DRAWDOWN)",
+   "canonical": "operations",
+   "confidence": 0.48,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "STORE MERCHANDISE",
+   "canonical": "operations",
+   "confidence": 0.85,
+   "source": "jev-web"
+  },
+  {
+   "raw": "TRANSPORTATION",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "TRAVEL",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "TRAVEL AND MEETING",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "TRAVEL AND MEETINGS",
+   "canonical": "operations",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "TRAVEL REIMBURSEMENT",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-web"
+  },
+  {
+   "raw": "TRAVEL REIMBURSEMENT: SEE ITEMIZATION(S) IF REQUIRED",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "TRAVEL: AIR",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "TRAVEL: GROUND TRANSPORTATION",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "TRAVEL: LODGING",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-trump-walk"
+  },
+  {
+   "raw": "TRAVEL; AIRFARE",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "TRAVEL; LODGING",
+   "canonical": "operations",
+   "confidence": 1.0,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "UNION DUES",
+   "canonical": "operations",
+   "confidence": 0.67,
+   "source": "jev-web"
+  },
+  {
+   "raw": "UNKNOWN",
+   "canonical": "operations",
+   "confidence": 0.62,
+   "source": "jev-web"
+  },
+  {
+   "raw": "VOTER DATA",
+   "canonical": "operations",
+   "confidence": 0.93,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "WEBSITE DESIGN & HOSTING",
+   "canonical": "operations",
+   "confidence": 0.58,
+   "source": "jev-web-e"
+  },
+  {
+   "raw": "CANDIDATE LOAN",
+   "canonical": "transfers",
+   "confidence": 0.37,
+   "source": "jev-web"
+  },
+  {
+   "raw": "CONTRIBUTION",
+   "canonical": "transfers",
+   "confidence": 0.99,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "DONATION",
+   "canonical": "transfers",
+   "confidence": 0.95,
+   "source": "jev-harris-walk"
+  },
+  {
+   "raw": "FEDERAL CONTRIBUTION",
+   "canonical": "transfers",
+   "confidence": 0.99,
+   "source": "jev-web"
+  },
+  {
+   "raw": "RECOUNT: CONTRIBUTION FOR NRSC LEGAL ACCOUNT",
+   "canonical": "transfers",
+   "confidence": 0.96,
+   "source": "jev-web"
+  },
+  {
+   "raw": "TRANSFER",
+   "canonical": "transfers",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  },
+  {
+   "raw": "TRANSFER TO AFFILIATED COMMITTEE",
+   "canonical": "transfers",
+   "confidence": 1.0,
+   "source": "jev-batch-1"
+  }
+ ]
+}

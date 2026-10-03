@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FEC × Jev Prototype — 2024 Head-to-Head</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 960px; margin: 2rem auto; padding: 0 1rem; color: #1a1a1a; }
+  h1 { font-size: 1.5rem; } h2 { font-size: 1.15rem; margin-top: 2rem; border-top: 1px solid #ddd; padding-top: 1rem; }
+  .sub { color: #555; } .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+  @media (max-width: 700px) { .grid { grid-template-columns: 1fr; } }
+  table { border-collapse: collapse; width: 100%; font-size: .85rem; margin-top: .5rem; }
+  th, td { border: 1px solid #ddd; padding: 4px 8px; text-align: left; }
+  th { background: #f5f5f5; } td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  code { background: #f4f4f4; padding: 1px 4px; border-radius: 3px; font-size: .82rem; }
+  .pill { display: inline-block; background: #eef4ff; border: 1px solid #bcd; border-radius: 10px; padding: 0 8px; font-size: .78rem; }
+</style>
+</head>
+<body>
+<h1>FEC × Jev prototype: 2024 head-to-head spending &amp; donors</h1>
+<p class="sub">Trump vehicle <code>C00828541</code> (NEVER SURRENDER, INC. — $495M receipts 2024) vs
+Harris vehicle <code>C00703975</code> (HARRIS VICTORY FUND — $1.17B receipts 2024).
+FEC API supplies facts; <span class="pill">Jev jev-1.13.0</span> supplies semantic normalization (Choice).</p>
+
+<h2>1. Spending mix by Jev-normalized tactic (Schedule B, 2024 activity only)</h2>
+<p class="sub">60+ distinct free-text <code>disbursement_description</code> values per committee → 7 canonical tactics via batched Jev Choice calls. Dollars summed <b>in code</b>, never by the model. Both sides: cursor walk down the amount curve (Trump 10 pages × 100, Harris 12 × 100), 2024 activity only. Trump: 544 distinct records, $408.2M (87% of $471.5M totals). Harris: 630 records, $1,008.8M (86% of $1,175.2M totals).</p>
+<div class="grid">
+  <div><canvas id="spendTrump"></canvas></div>
+  <div><canvas id="spendHarris"></canvas></div>
+</div>
+<table id="spendTable"></table>
+<p class="sub">Method notes. (1) The FEC API ignores <code>page</code> when <code>sort</code> is set — pages 1–5 returned identical <code>sub_id</code>s. Fixed by deduping on <code>sub_id</code> and cursoring with <code>last_disbursement_amount</code> + <code>last_index</code> from each response's <code>pagination.last_indexes</code>. Unsorted paging is not an alternative — it 504s on large committees. (2) <code>cycle=2024</code> still returns 2020-dated rows for C00703975, so all figures filter on <code>disbursement_date</code> in 2024 and reconcile against <code>/committee/{id}/totals/?cycle=2024</code>. (3) Top-by-amount sampling hides the mix on both sides: Harris's top-100 is 100% media; Trump's top-100 showed $0.96M legal vs $10.5M in the full walk (152 small lawyer payments). Amount-ranked samples systematically hide high-frequency / low-amount tactics.</p>
+
+<h2>2. Donor occupation sectors (Schedule A itemized individuals, n=100 sample each)</h2>
+<p class="sub">16 distinct <code>contributor_occupation</code> strings → 9 sectors via one batched Jev Choice call (16 parallel questions, conf 0.99–1.00).</p>
+<div class="grid">
+  <div><canvas id="donorTrump"></canvas></div>
+  <div><canvas id="donorHarris"></canvas></div>
+</div>
+<table id="donorTable"></table>
+
+<h2>3. How Jev was used (reproducible)</h2>
+<table>
+  <tr><th>Step</th><th>Jev call</th><th>Result</th></tr>
+  <tr><td>Tactic normalizer</td><td><code>POST api.typesafe.ai/v1/systemone</code> · model <code>jev-latest</code> · 16 + 13 + 4 + 39 + 39 parallel <code>choice</code> Qs</td><td>111/111 mapped, zero "other"; 4 honestly uncertain under 0.80 (PRINTING &amp; COPYING 0.51, AV EQUIPMENT rows 0.43/0.68, VIDEO+STRATEGY hybrid 0.74 — ~$4.9M / 0.3% of combined sample)</td></tr>
+  <tr><td>Donor sector classifier</td><td>same endpoint · state <code>{occupations[]}</code> · 16 parallel <code>choice</code> Qs</td><td>16/16 sensible, conf 0.99–1.00</td></tr>
+  <tr><td>Aggregation &amp; charts</td><td>plain JS/Python sums + Chart.js — no model math</td><td>tables below are code output</td></tr>
+</table>
+
+<h2>Raw Jev mappings</h2>
+<table>
+<tr><th>Raw FEC text</th><th>Jev tactic</th></tr>
+<tr><td>PLACED MEDIA, MEDIA BUY (&amp; PRODUCTION), MEDIA PRODUCTION, DIGITAL/ONLINE ADVERTISING, AUDIO VISUAL…</td><td>media</td></tr>
+<tr><td>POSTAGE, DIRECT MAIL…, TEXT MESSAGE OUTREACH, SMS ADVERTISING, TELEMARKETING &amp; DATA…</td><td>direct_contact</td></tr>
+<tr><td>MERCHANT/FUNDRAISING FEES, CONTRIBUTION REFUND, CREDIT CARD PAYMENT…, DIGITAL FUNDRAISING (0.86)</td><td>fundraising_ops</td></tr>
+<tr><td>TRANSFER*, TRANSFER TO AFFILIATED COMMITTEE</td><td>transfers</td></tr>
+<tr><td>LEGAL/COMPLIANCE/STRATEGY CONSULTING, LEGAL SERVICES, POLLING EXPENSE</td><td>legal_compliance</td></tr>
+<tr><td>TRAVEL: AIR, REIMBURSEMENT: TRAVEL…, IT SERVICES, DATABASE/DATA PROCESSING SERVICES, PAYROLL + TAXES, HEALTH INSURANCE, LODGING, DIGITAL SECURITY</td><td>operations</td></tr>
+<tr><td>CAMPAIGN/EVENT PRODUCTION, SITE RENTAL, EVENT AV, SPONSORSHIP, SUPPLIES, PHOTOGRAPHY/VIDEOGRAPHY</td><td>events (new: Harris rallies; $50.3M)</td></tr>
+</table>
+
+<script>
+const TACTICS = ["media","direct_contact","operations","transfers","legal_compliance","fundraising_ops","events"];
+const spendTrump = [312477040, 43133871, 23011377, 4446000, 10517511, 8978072, 5624660];
+const spendHarris = [785401310, 47533937, 70985269, 8265000, 11542644, 34777986, 50306067];
+const donorLabels = ["retired_not_employed","unknown","business_exec","legal","education","health","technical","arts_media","admin_service"];
+const donorTrump = [50, 26, 10, 0, 1, 1, 2, 0, 1];
+const donorHarris = [25, 6, 3, 6, 1, 1, 1, 2, 1];
+
+function bar(id, labels, data, title) {
+  new Chart(document.getElementById(id), { type: 'bar',
+    data: { labels, datasets: [{ data }] },
+    options: { plugins: { title: { display: true, text: title }, legend: { display: false } },
+      scales: { y: { beginAtZero: true } } } });
+}
+bar('spendTrump', TACTICS, spendTrump, 'Trump C00828541 — $ by tactic (544 recs, $408M)');
+bar('spendHarris', TACTICS, spendHarris, 'Harris C00703975 — $ by tactic (630 recs, $1,009M)');
+bar('donorTrump', donorLabels, donorTrump, 'Trump — donor sectors (count, n=91 classified)');
+bar('donorHarris', donorLabels, donorHarris, 'Harris — donor sectors (count, n=46 classified)');
+
+function fillTable(id, labels, a, b, an, bn) {
+  const t = document.getElementById(id);
+  t.innerHTML = `<tr><th>Category</th><th>${an}</th><th>${bn}</th></tr>` +
+    labels.map((l, i) => `<tr><td>${l}</td><td class="num">${a[i].toLocaleString()}</td><td class="num">${b[i].toLocaleString()}</td></tr>`).join('');
+}
+fillTable('spendTable', TACTICS, spendTrump, spendHarris, 'Trump $', 'Harris $');
+fillTable('donorTable', donorLabels, donorTrump, donorHarris, 'Trump n', 'Harris n');
+</script>
+</body>
+</html>

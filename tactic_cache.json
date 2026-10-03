@@ -1,0 +1,3722 @@
+{
+ "PLACED MEDIA": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "MEDIA BUY & PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "DIGITAL ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "MERCHANT FEES": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "FUNDRAISING FEES": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "TRANSFER TO AFFILIATED COMMITTEE": {
+  "tactic": "transfers",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "COMPLIANCE CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "REIMBURSEMENT: TRAVEL: GROUND TRANSPORTATION": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "IT SERVICES": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "DIRECT MAIL PRINTING & POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "POLITICAL STRATEGY CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "TEXT MESSAGE OUTREACH": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "LEGAL SERVICES": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "DATABASE SUBSCRIPTION": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "CONTRIBUTION REFUND": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "DIGITAL FUNDRAISING & ONLINE ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "TELEMARKETING & DATA MANAGEMENT SERVICES": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "TRAVEL: AIR": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "TRANSFER": {
+  "tactic": "transfers",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "LEGAL CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "SMS ADVERTISING": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "CREDIT CARD PAYMENT: SEE ITEMIZATIONS IF REQUIRED": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "DIGITAL CONSULTING, ONLINE ADVERTISING & LIST RENTAL": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "DIRECT MAIL SERVICES & SMS ADVERTISING": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "MEDIA BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "MEDIA BUY AND PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "MEDIA PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "AUDIO VISUAL SERVICES": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "POLLING EXPENSE": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "DATA PROCESSING SERVICES": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "ONLINE ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "DIGITAL FUNDRAISING": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-batch-1"
+ },
+ "AUDIO VISUAL EQUIPMENT & SERVICES": {
+  "tactic": "events",
+  "conf": 0.43,
+  "src": "jev-harris-walk"
+ },
+ "AUDIO VISUAL SERVICES & EQUIPMENT RENTAL": {
+  "tactic": "events",
+  "conf": 0.68,
+  "src": "jev-harris-walk"
+ },
+ "CAMPAIGN CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "CAMPAIGN EVENT ENTERTAINMENT": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "CAMPAIGN EVENT PRODUCTION": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "CANVASSING": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "CONTRIBUTION": {
+  "tactic": "transfers",
+  "conf": 0.99,
+  "src": "jev-harris-walk"
+ },
+ "CREDIT CARD PAYMENT": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "DIGITAL CONSULTING": {
+  "tactic": "media",
+  "conf": 0.88,
+  "src": "jev-harris-walk"
+ },
+ "DIGITAL SECURITY": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "DONATION": {
+  "tactic": "transfers",
+  "conf": 0.95,
+  "src": "jev-harris-walk"
+ },
+ "EVENT PRODUCTION": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "EVENT PRODUCTION & AUDIO VISUAL SERVICES": {
+  "tactic": "events",
+  "conf": 0.99,
+  "src": "jev-harris-walk"
+ },
+ "EVENT PRODUCTION & EQUIPMENT RENTAL": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "EVENT PRODUCTION & SITE RENTAL": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "EVENT PRODUCTION & SITE RENTALS": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "EVENT PRODUCTION/AUDIO VISUAL SERVICES": {
+  "tactic": "events",
+  "conf": 0.99,
+  "src": "jev-harris-walk"
+ },
+ "EVENT SPONSORSHIP": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "EVENT SUPPLIES": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "HEALTH INSURANCE": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "INSURANCE": {
+  "tactic": "operations",
+  "conf": 0.98,
+  "src": "jev-harris-walk"
+ },
+ "LICENSING FEES": {
+  "tactic": "operations",
+  "conf": 0.98,
+  "src": "jev-harris-walk"
+ },
+ "LODGING": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "MEDIA CONSULTING": {
+  "tactic": "media",
+  "conf": 0.99,
+  "src": "jev-harris-walk"
+ },
+ "PAID MEDIA": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "PAID PHONE CALLS": {
+  "tactic": "direct_contact",
+  "conf": 0.98,
+  "src": "jev-harris-walk"
+ },
+ "PAYROLL": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "PAYROLL TAXES": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "PHOTOGRAPHY SERVICES": {
+  "tactic": "events",
+  "conf": 0.98,
+  "src": "jev-harris-walk"
+ },
+ "POLITICAL CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "POLLING": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "PRINTING & COPYING": {
+  "tactic": "operations",
+  "conf": 0.51,
+  "src": "jev-harris-walk"
+ },
+ "SERVICE FEE": {
+  "tactic": "fundraising_ops",
+  "conf": 0.9,
+  "src": "jev-harris-walk"
+ },
+ "SITE RENTAL": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "TRANSPORTATION": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "TRAVEL": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "TRAVEL; AIRFARE": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "TRAVEL; LODGING": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-harris-walk"
+ },
+ "VIDEOGRAPHY SERVICES": {
+  "tactic": "events",
+  "conf": 0.8,
+  "src": "jev-harris-walk"
+ },
+ "AUDIO VISUAL SERVICES, EVENT STAGING EXPENSE & TRAVEL EXPENSES": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "AUDIO VISUAL SERVICES, EVENT STAGING EXPENSE, & TRAVEL EXPENSES": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "SECURITY SERVICES & TRAVEL EXPENSES": {
+  "tactic": "operations",
+  "conf": 0.97,
+  "src": "jev-trump-walk"
+ },
+ "VIDEO PRODUCTION SERVICES": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "TRAVEL: LODGING": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "CREDIT CARD PAYMENT: SEE ITEMIZATION(S) IF REQUIRED": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "DIRECT MAIL PROCESSING SERVICES": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "AUDIO VISUAL SERVICES & EVENT STAGING EXPENSE": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "COMMUNICATIONS & LEGAL CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "TAXES": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "FACILITY RENTAL": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "VIDEO PRODUCTION SERVICES & POLITICAL STRATEGY CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 0.74,
+  "src": "jev-trump-walk"
+ },
+ "PAYROLL TAXES & WITHHOLDINGS": {
+  "tactic": "legal_compliance",
+  "conf": 0.97,
+  "src": "jev-trump-walk"
+ },
+ "COMMUNICATIONS CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 0.89,
+  "src": "jev-trump-walk"
+ },
+ "LEGAL CONSULTING & TRAVEL EXPENSES": {
+  "tactic": "legal_compliance",
+  "conf": 0.88,
+  "src": "jev-trump-walk"
+ },
+ "COLLATERAL: PALM CARDS": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "COMMUNICATIONS & DIGITAL CONSULTING": {
+  "tactic": "media",
+  "conf": 0.91,
+  "src": "jev-trump-walk"
+ },
+ "IT SERVICES & OFFICE EQUIPMENT": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "RENT": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "DIGITAL CONSULTING & VIDEO PRODUCTION SERVICES": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "DIRECT MAIL SERVICES & POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "TRAVEL: GROUND TRANSPORTATION": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "COMMUNICATIONS & POLITICAL STRATEGY CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 0.99,
+  "src": "jev-trump-walk"
+ },
+ "COMMUNICATIONS CONSULTING & RESEARCH CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "POLITICAL STRATEGY CONSULTING & TRAVEL EXPENSES": {
+  "tactic": "legal_compliance",
+  "conf": 0.96,
+  "src": "jev-trump-walk"
+ },
+ "DATA SERVICES": {
+  "tactic": "operations",
+  "conf": 0.99,
+  "src": "jev-trump-walk"
+ },
+ "EVENT EXPENSE: BROADCASTING": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "TRAVEL REIMBURSEMENT: SEE ITEMIZATION(S) IF REQUIRED": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "SECURITY SERVICES": {
+  "tactic": "operations",
+  "conf": 0.95,
+  "src": "jev-trump-walk"
+ },
+ "FACILITY RENTAL & CATERING": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "COLLATERAL: PALM CARDS & YARD SIGNS": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "EMAIL SERVICES": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-trump-walk"
+ },
+ "SOFTWARE": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "RESEARCH CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "DIGITAL CONSULTING & SOFTWARE": {
+  "tactic": "operations",
+  "conf": 0.75,
+  "src": "jev-trump-walk"
+ },
+ "FACILITY RENTAL & CATERING SERVICES": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "TELEMARKETING SERVICES": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "DATA SERVICES & TRAVEL EXPENSES": {
+  "tactic": "operations",
+  "conf": 0.99,
+  "src": "jev-trump-walk"
+ },
+ "OFFICE EQUIPMENT": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-trump-walk"
+ },
+ "AIRFARE": {
+  "tactic": "operations",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "DIGITAL FUNDRAISING AND ADVERTISING": {
+  "tactic": "media",
+  "conf": 0.96,
+  "src": "jev-web"
+ },
+ "FUNDRAISING SERVICES": {
+  "tactic": "fundraising_ops",
+  "conf": 0.95,
+  "src": "jev-web"
+ },
+ "MAIL SERVICES": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "MEDIA PURCHASE": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "PAYROLL TAXES AND FEES": {
+  "tactic": "legal_compliance",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "VIDEO PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "WEB PROCESSING FEES": {
+  "tactic": "fundraising_ops",
+  "conf": 0.89,
+  "src": "jev-web"
+ },
+ "CANDIDATE RESIDENTIAL SECURITY SYSTEM": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "CREDIT CARD PROCESSING FEES": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "DATA ACQUISITION": {
+  "tactic": "operations",
+  "conf": 0.95,
+  "src": "jev-web"
+ },
+ "DIRECT MAIL FUNDRAISING": {
+  "tactic": "fundraising_ops",
+  "conf": 0.56,
+  "src": "jev-web"
+ },
+ "DIRECT MAIL SERVICES": {
+  "tactic": "direct_contact",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "EVENT PRODUCTION CONSULTING": {
+  "tactic": "events",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "FIELD CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 0.83,
+  "src": "jev-web"
+ },
+ "FUNDRAISING CONSULTING": {
+  "tactic": "fundraising_ops",
+  "conf": 0.42,
+  "src": "jev-web"
+ },
+ "GENERAL CAMPAIGN CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "GRAPHIC DESIGN CONSULTING": {
+  "tactic": "media",
+  "conf": 0.37,
+  "src": "jev-web"
+ },
+ "MERCHANDISE PRINTING": {
+  "tactic": "media",
+  "conf": 0.31,
+  "src": "jev-web"
+ },
+ "MILEAGE": {
+  "tactic": "operations",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "PRINTING": {
+  "tactic": "media",
+  "conf": 0.55,
+  "src": "jev-web"
+ },
+ "REIMBURSEMENT - AIRFARE": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "REIMBURSEMENT - CANDIDATE RESIDENTIAL SECURITY SYSTEM": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "TEXTING SERVICE": {
+  "tactic": "direct_contact",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "CATERING FOR EVENT": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "CATERING FOR TUESDAY LUNCH GROUP": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "FEDERAL TAXES": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "FIELD AND DIGITAL CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 0.52,
+  "src": "jev-web"
+ },
+ "FIELD CONSULTING WORK": {
+  "tactic": "direct_contact",
+  "conf": 0.53,
+  "src": "jev-web"
+ },
+ "FIELD WORK": {
+  "tactic": "direct_contact",
+  "conf": 0.62,
+  "src": "jev-web"
+ },
+ "FIELD WORK AND COMMUNICATIONS CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 0.72,
+  "src": "jev-web"
+ },
+ "HOST GIFTS": {
+  "tactic": "operations",
+  "conf": 0.19,
+  "src": "jev-web"
+ },
+ "REFUND: REFUND": {
+  "tactic": "fundraising_ops",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "REFUND: REFUND CONTRIBUTION OVER LIMIT": {
+  "tactic": "fundraising_ops",
+  "conf": 0.94,
+  "src": "jev-web"
+ },
+ "REFUND: REFUND OVER LIMIT": {
+  "tactic": "fundraising_ops",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "SALARY": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "SIGNS": {
+  "tactic": "direct_contact",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "SOFTWARE SUBSCRIPTION": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "AUDIO/VIDEO EQUIPMENT": {
+  "tactic": "events",
+  "conf": 0.45,
+  "src": "jev-web"
+ },
+ "BANK FEES": {
+  "tactic": "fundraising_ops",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "BUTTON PRINTING": {
+  "tactic": "direct_contact",
+  "conf": 0.34,
+  "src": "jev-web"
+ },
+ "CAGING SERVICE": {
+  "tactic": "operations",
+  "conf": 0.64,
+  "src": "jev-web"
+ },
+ "CATERING - ELECTION NIGHT": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "CELL PHONE STIPEND": {
+  "tactic": "operations",
+  "conf": 0.75,
+  "src": "jev-web"
+ },
+ "DIGITAL ORGANIZING": {
+  "tactic": "media",
+  "conf": 0.34,
+  "src": "jev-web"
+ },
+ "EQUIPMENT RENT": {
+  "tactic": "events",
+  "conf": 0.48,
+  "src": "jev-web"
+ },
+ "EVENT CATERING": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "EVENT ENTERTAINMENT": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "EVENT FEE": {
+  "tactic": "events",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "EVENT LOGISTICS CONSULTING": {
+  "tactic": "events",
+  "conf": 0.51,
+  "src": "jev-web"
+ },
+ "EVENT SECURITY": {
+  "tactic": "events",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "EVENT SPACE": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "EVENT SPACE RENT": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "EVENT SPACE RENT AND CATERING": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "EVENT SPACE RENT; FOOD AND BEVERAGE": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "FELLOW STIPEND": {
+  "tactic": "operations",
+  "conf": 0.95,
+  "src": "jev-web"
+ },
+ "FOOD AND BEVERAGE": {
+  "tactic": "events",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "FUNDRAISER CATERING AND SPACE RENT": {
+  "tactic": "events",
+  "conf": 0.84,
+  "src": "jev-web"
+ },
+ "FUNDRAISER EVENT SPACE; FOOD AND BEVERAGE": {
+  "tactic": "events",
+  "conf": 0.81,
+  "src": "jev-web"
+ },
+ "FUNDRAISER FOOD": {
+  "tactic": "events",
+  "conf": 0.6,
+  "src": "jev-web"
+ },
+ "FUNDRAISER FOOD AND BEVERAGE": {
+  "tactic": "events",
+  "conf": 0.62,
+  "src": "jev-web"
+ },
+ "FUNDRAISING": {
+  "tactic": "fundraising_ops",
+  "conf": 0.96,
+  "src": "jev-web"
+ },
+ "GOTV ROBOCALLS": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "HEALTHCARE STIPEND": {
+  "tactic": "operations",
+  "conf": 0.96,
+  "src": "jev-web"
+ },
+ "INTERPRETING SERVICES": {
+  "tactic": "operations",
+  "conf": 0.59,
+  "src": "jev-web"
+ },
+ "OFFICE CLEANING": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "OFFICE RENT": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "OFFICE SUPPLIES": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "REIMBURSEMENT": {
+  "tactic": "operations",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "REIMBURSEMENT - EVENT SUPPLIES, VOLUNTEER FOOD AND BEVERAGE, TRANSPORTATION": {
+  "tactic": "operations",
+  "conf": 0.42,
+  "src": "jev-web"
+ },
+ "REIMBURSEMENT - FOOD AND BEVERAGE, TRAVEL": {
+  "tactic": "operations",
+  "conf": 0.93,
+  "src": "jev-web"
+ },
+ "REIMBURSEMENT - LODGING, TRANSPORTATION": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "REIMBURSMENT": {
+  "tactic": "operations",
+  "conf": 0.96,
+  "src": "jev-web"
+ },
+ "RESEARCH CONSULTING AND RENT": {
+  "tactic": "legal_compliance",
+  "conf": 0.94,
+  "src": "jev-web"
+ },
+ "RESEARCH CONSULTING AND SPACE RENT": {
+  "tactic": "legal_compliance",
+  "conf": 0.91,
+  "src": "jev-web"
+ },
+ "SECURITY DEPOSIT": {
+  "tactic": "operations",
+  "conf": 0.93,
+  "src": "jev-web"
+ },
+ "SPACE RENT": {
+  "tactic": "events",
+  "conf": 0.51,
+  "src": "jev-web"
+ },
+ "STAFF TIME: PHONE BANKING": {
+  "tactic": "direct_contact",
+  "conf": 0.91,
+  "src": "jev-web"
+ },
+ "SURVEY": {
+  "tactic": "legal_compliance",
+  "conf": 0.57,
+  "src": "jev-web"
+ },
+ "TEXTING": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "UNION DUES": {
+  "tactic": "operations",
+  "conf": 0.67,
+  "src": "jev-web"
+ },
+ "AD BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING - CABLE - AMPERSAND": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING - DIGITAL": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING - NON-CONTRIBUTION ACCOUNT": {
+  "tactic": "media",
+  "conf": 0.85,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING- CABLE RVAT COMP HARRIS": {
+  "tactic": "media",
+  "conf": 0.94,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-BROADCAST TV": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-BROADCAST TV - RVAT COMP": {
+  "tactic": "media",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-BROADCAST TV HARRIS COMP": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-BROADCAST TV JACKIE": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-CTV": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-CTV AUGUST CAMPAIGN": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-CTV ROKU": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-TEXTING": {
+  "tactic": "media",
+  "conf": 0.76,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-YOUTUBE  (ESTIMATE)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-YOUTUBE (ESTIMATE)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING; TELEVISION ADVERTISEMENT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISNG TV": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "BALANCE OF PRE-GENERAL DIGITAL ADVERTISING PROGRAM": {
+  "tactic": "media",
+  "conf": 0.98,
+  "src": "jev-web-e"
+ },
+ "BILLBOARD ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "BILLBOARD ADVERTISING BUY (ESTIMATE)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "BILLBOARD ADVERTISING BUY; SEE LINE 21(B)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CABLE TV ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CABLE, STREAMING, AND SOCIAL MEDIA VIDEO ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CABLE/SATELLITE ADS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CANVASSING #1818938": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CANVASSING - ESTIMATE": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CANVASSING 1818938": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CANVASSING SERVICES": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CANVASSING STAFF WAGES FOR 10.20 - 11.02 (ESTIMATE)": {
+  "tactic": "direct_contact",
+  "conf": 0.77,
+  "src": "jev-web-e"
+ },
+ "CANVASSING STAFF WAGES FOR 10.6 - 10.21 (ESTIMATE)": {
+  "tactic": "direct_contact",
+  "conf": 0.83,
+  "src": "jev-web-e"
+ },
+ "CANVASSING/FIELD OPERATIONS": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CAVASSING VIA TEXT 10/17-11/3 HARRIS ACTUAL": {
+  "tactic": "direct_contact",
+  "conf": 0.94,
+  "src": "jev-web-e"
+ },
+ "COPY AND PRODUCTION SERVICES; INTEREST": {
+  "tactic": "media",
+  "conf": 0.89,
+  "src": "jev-web-e"
+ },
+ "COPY AND PRODUCTION SERVICES; INTEREST (ESTIMATE)": {
+  "tactic": "media",
+  "conf": 0.84,
+  "src": "jev-web-e"
+ },
+ "DIGITAL & PRINT ADVERTISING & PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL & PRINT ADVERTISING & PRODUCTION - ESTIMATE": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL AD BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL AD BUY & PRODUCTION; ALSO OPPOSING DONALD TRUMP (PARTIALLY PAID 7/16/2024, SEE SCHEDULE B)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL AD BUY (ESTIMATE)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL AD CAMPAIGN": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL AD PLACEMENT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING (ACTUAL COST OF ESTIMATED IE ON 48-HR RPT FILED 10/8/24)": {
+  "tactic": "media",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING (ESTIMATE)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING (PLACEMENT)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING - ESTIMATE": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING AND PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING BUY & PRODUCTION; ALSO OPPOSING DONALD TRUMP": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING BUY (ESTIMATE)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING PLACEMENT (ESTIMATE)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL AND MEDIA AD BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL MEDIA": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL MEDIA BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL MEDIA BUY 'AMERICA' AD": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL MEDIA PRODUCTION & BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIRECT MAIL": {
+  "tactic": "direct_contact",
+  "conf": 0.93,
+  "src": "jev-web-e"
+ },
+ "DIRECT MAIL - ESTIMATE": {
+  "tactic": "direct_contact",
+  "conf": 0.93,
+  "src": "jev-web-e"
+ },
+ "DOOR TO DOOR FIELD PROGRAM": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - STAFF SALARIES & BENEFITS FOR CANVASSING": {
+  "tactic": "operations",
+  "conf": 0.58,
+  "src": "jev-web-e"
+ },
+ "FIELD CANVASSING (ESTIMATE)": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE-HARRIS-DIGITAL": {
+  "tactic": "media",
+  "conf": 0.98,
+  "src": "jev-web-e"
+ },
+ "IE-HARRIS-DIGITAL ADS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE-HARRIS-DIGITAL MEDIA": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE-HARRIS-MEDIA BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE-HARRIS-MEDIA BUY/MEDIA PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE-HARRIS-MEDIA PRODUCTION/MEDIA BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IN PERSON CANVASSING": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IN-KIND - OUTDOOR ADVERTISING: BILLBOARDS": {
+  "tactic": "media",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "INCREASE FREQUENCY OF AD PREVIOUSLY REPORTED ID 4017": {
+  "tactic": "media",
+  "conf": 0.98,
+  "src": "jev-web-e"
+ },
+ "MAIL POSTAGE (ESTIMATE); ALSO OPPOSING DONALD TRUMP": {
+  "tactic": "direct_contact",
+  "conf": 0.87,
+  "src": "jev-web-e"
+ },
+ "MAIL POSTAGE/PRODUCTION": {
+  "tactic": "direct_contact",
+  "conf": 0.77,
+  "src": "jev-web-e"
+ },
+ "MAIL POSTAGE; ALSO OPPOSING DONALD TRUMP": {
+  "tactic": "direct_contact",
+  "conf": 0.87,
+  "src": "jev-web-e"
+ },
+ "MAIL POSTAGE; ALSO OPPOSING DONALD TRUMP - SEE SCHEDULE B": {
+  "tactic": "direct_contact",
+  "conf": 0.79,
+  "src": "jev-web-e"
+ },
+ "MAIL PRODUCTION (ESTIMATE); ALSO OPPOSING DONALD TRUMP": {
+  "tactic": "media",
+  "conf": 0.55,
+  "src": "jev-web-e"
+ },
+ "MAIL PRODUCTION; ACTUAL COST - ESTIMATE REPORTED ON 10/26; ALSO OPPOSING DONALD TRUMP": {
+  "tactic": "media",
+  "conf": 0.46,
+  "src": "jev-web-e"
+ },
+ "MAIL PRODUCTION; ALSO OPPOSING DONALD TRUMP": {
+  "tactic": "media",
+  "conf": 0.5,
+  "src": "jev-web-e"
+ },
+ "MAILER PRODUCTION (ESTIMATE); ALSO OPPOSING DONALD TRUMP": {
+  "tactic": "media",
+  "conf": 0.62,
+  "src": "jev-web-e"
+ },
+ "MAILER PRODUCTION; ALSO OPPOSING DONALD TRUMP": {
+  "tactic": "media",
+  "conf": 0.74,
+  "src": "jev-web-e"
+ },
+ "MAILHOUSE": {
+  "tactic": "direct_contact",
+  "conf": 0.91,
+  "src": "jev-web-e"
+ },
+ "MEDIA": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA BUY - ESTIMATE": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA BUY AND AD SERVICING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA BUY AND AD SERVICING (ESTIMATE)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA BUY AND PRODUCTION - ESTIMATE": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA PLACEMENT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA PRODUCTION / MEDIA PLACEMENT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA PRODUCTION AND BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA SPEND": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA: DIGITAL": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA: RADIO": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA: TELEVISION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA: TELEVISON": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MESSAGE PHONE CALLS": {
+  "tactic": "direct_contact",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "NON-CONTRIBUTION ACCOUNT - TRUCK BILLBOARD ADS": {
+  "tactic": "media",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "NON-CONTRIBUTION ACCOUNT: CANVASSING": {
+  "tactic": "direct_contact",
+  "conf": 0.94,
+  "src": "jev-web-e"
+ },
+ "PAID CANVASSING": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PARTIAL PAYMENT FOR PRODUCTION AND DISSEMINATION OF DIGITAL ADS AS DISCL ON 9/18 48-HR REPORT": {
+  "tactic": "media",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "PEER-TO-PEER MESSAGING": {
+  "tactic": "direct_contact",
+  "conf": 0.95,
+  "src": "jev-web-e"
+ },
+ "PHONE CALLS": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PLACED MEDIA: CONNECTED TV": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PLACED MEDIA: TV": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PMT FOR EST FROM 10/1/2024. ADVERTISING-YOUTUBE ACTUAL": {
+  "tactic": "media",
+  "conf": 0.98,
+  "src": "jev-web-e"
+ },
+ "PMT FOR EST FROM 10/16/2024. ADVERTISING-YOUTUBE ACTUAL": {
+  "tactic": "media",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "POSTAGE (ESTIMATE)": {
+  "tactic": "direct_contact",
+  "conf": 0.96,
+  "src": "jev-web-e"
+ },
+ "POSTAGE / PRINTING / PRODUCTION": {
+  "tactic": "direct_contact",
+  "conf": 0.51,
+  "src": "jev-web-e"
+ },
+ "POSTAGE / PRINTING / PRODUCTION - FILED ON 08/12/2024": {
+  "tactic": "direct_contact",
+  "conf": 0.56,
+  "src": "jev-web-e"
+ },
+ "POSTAGE / PRINTING / PRODUCTION - FILED ON 08/19/2024": {
+  "tactic": "direct_contact",
+  "conf": 0.52,
+  "src": "jev-web-e"
+ },
+ "PRINTING (ESTIMATE)": {
+  "tactic": "media",
+  "conf": 0.59,
+  "src": "jev-web-e"
+ },
+ "PRINTING/POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.72,
+  "src": "jev-web-e"
+ },
+ "RADIO ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO ADVERTISING - ESTIMATE": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RELATIONAL ORGANIZING": {
+  "tactic": "direct_contact",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "SMS MESSAGING": {
+  "tactic": "direct_contact",
+  "conf": 0.69,
+  "src": "jev-web-e"
+ },
+ "TELEPHONE CALLS & TEXT MESSAGING SERVICES": {
+  "tactic": "direct_contact",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "TELEPHONE CALLS & TEXT MESSAGING SERVICES - ESTIMATE": {
+  "tactic": "direct_contact",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "TEXT MESSAGES": {
+  "tactic": "direct_contact",
+  "conf": 0.79,
+  "src": "jev-web-e"
+ },
+ "TEXT MESSAGING 11/4-11/5 (ESTIMATE)": {
+  "tactic": "direct_contact",
+  "conf": 0.71,
+  "src": "jev-web-e"
+ },
+ "TV AD BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV AD BUY (ESTIMATE)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV ADS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV ADVERTISING (PLACEMENT)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV ADVERTSING (PLACEMENT)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV AND DIGITAL ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV AND DIGITAL ADVERTISING PLACEMENT STOP THE STEAL": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV MEDIA PLACEMENT - 'MOMENTS'": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "VIDEO MEDIA": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "VOTER OUTREACH": {
+  "tactic": "direct_contact",
+  "conf": 0.94,
+  "src": "jev-web-e"
+ },
+ "ACTUAL COST FOR DIGITAL ADVERTISING AS DISCLOSED ON 10/10 48-HR REPORT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ACTUAL COST FOR DIGITAL COMMUNICATIONS AS DISCLOSED ON 10/24 24-HR REPORT": {
+  "tactic": "media",
+  "conf": 0.9,
+  "src": "jev-web-e"
+ },
+ "AD BUY AND PRODUCTION COSTS, 30 SECOND AD": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "AD CONSULTING": {
+  "tactic": "media",
+  "conf": 0.55,
+  "src": "jev-web-e"
+ },
+ "AD PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING FOX NEWS JANUARY 6 AD (ESTIMATE)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING TEXT MESSAGING": {
+  "tactic": "media",
+  "conf": 0.66,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-BROADCAST TV TOM": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-BROADCAST TV- MATT (ID)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-CTV AUGUST CAMPAIGN HULU": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-CTV AUGUST CAMPAIGN KATZ": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-CTV AUGUST CAMPAIGN LG": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-CTV HULU": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-CTV KATZ DIGITAL": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING-CTV LG": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING; BILLBOARDS": {
+  "tactic": "media",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "ADVERTISNG TV - UPDATED ESTIMATE TO ACTUAL PER PAYMENT ON BANK STATEMENT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "BILLBOARD RENTAL": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CABLE ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CANVASSER SALARIES AND BENEFITS FOR 10/14 - 10/27": {
+  "tactic": "direct_contact",
+  "conf": 0.77,
+  "src": "jev-web-e"
+ },
+ "CANVASSING STAFF WAGES FOR 11.04 - 11.26 (ESTIMATE)": {
+  "tactic": "direct_contact",
+  "conf": 0.86,
+  "src": "jev-web-e"
+ },
+ "COLLATERAL MATERIALS- SHIRTS/HATS/SIGNS": {
+  "tactic": "direct_contact",
+  "conf": 0.71,
+  "src": "jev-web-e"
+ },
+ "CONTINUATION OF PREVIOUS 30 SECOND AD BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DEBT PMT: STICKERS / CREATIVE DESIGN SERVICES": {
+  "tactic": "media",
+  "conf": 0.35,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING & PRODUCTION - STEADY HAND DAY ONE": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING (ACTUAL)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING - NON-CONTRIBUTION ACCOUNT": {
+  "tactic": "media",
+  "conf": 0.96,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING - SEE SCH B": {
+  "tactic": "media",
+  "conf": 0.94,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING BUY: ACTUAL COST": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIRECT MAIL: PRINTING AND POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "DOOR HANGERS": {
+  "tactic": "direct_contact",
+  "conf": 0.87,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - DIGITAL ADS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - DIGITAL ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - RADIO & DIGITAL ADS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - STAFF SALARIES & BENEFITS FOR CANVASS": {
+  "tactic": "operations",
+  "conf": 0.44,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST FOR PRODUCTION AND DISSEMINATION OF DIGITAL ADVERTISING  RUNNING 7/29-8/17": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST FOR STAFF TIME": {
+  "tactic": "operations",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "FIELD CANVASSING": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "GOTV CANVASS": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "GOTV P2P TEXT MESSAGES": {
+  "tactic": "direct_contact",
+  "conf": 0.63,
+  "src": "jev-web-e"
+ },
+ "LITERATURE DROP": {
+  "tactic": "direct_contact",
+  "conf": 0.91,
+  "src": "jev-web-e"
+ },
+ "MAIL": {
+  "tactic": "direct_contact",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "MAILER": {
+  "tactic": "direct_contact",
+  "conf": 0.83,
+  "src": "jev-web-e"
+ },
+ "MEDIA AND DIGITAL BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA PLACEMENT / MEDIA PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA PRODUCTION AND TIME BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA PRODUCTION | ORIG RPT ESTIMATE $100,965 10/22/24": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PHONE/TEXT MESSAGING": {
+  "tactic": "direct_contact",
+  "conf": 0.89,
+  "src": "jev-web-e"
+ },
+ "PMT FOR EST FROM 10/1/2024. ADVERTISING-BROADCAST TV": {
+  "tactic": "media",
+  "conf": 0.98,
+  "src": "jev-web-e"
+ },
+ "PRINT AND MAILSHOP": {
+  "tactic": "direct_contact",
+  "conf": 0.9,
+  "src": "jev-web-e"
+ },
+ "PRODUCTION AND DIGITAL PLACEMENT - 10/29": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO MEDIA BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "SATELLITE AND CABLE TV, DIGITAL, RADIO ADVERTISEMENTS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "STICKERS / CREATIVE DESIGN SERVICES": {
+  "tactic": "media",
+  "conf": 0.53,
+  "src": "jev-web-e"
+ },
+ "TELEPHONE CALLS": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TEXT MESSAGING": {
+  "tactic": "direct_contact",
+  "conf": 0.64,
+  "src": "jev-web-e"
+ },
+ "TEXT SERVICE": {
+  "tactic": "direct_contact",
+  "conf": 0.72,
+  "src": "jev-web-e"
+ },
+ "TV AND STREAMING VIDEO ADS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CONTRACT": {
+  "tactic": "legal_compliance",
+  "conf": 0.58,
+  "src": "jev-web-e"
+ },
+ "CONTRACT - CANVASS": {
+  "tactic": "direct_contact",
+  "conf": 0.92,
+  "src": "jev-web-e"
+ },
+ "CONTRACT - MAILER": {
+  "tactic": "direct_contact",
+  "conf": 0.9,
+  "src": "jev-web-e"
+ },
+ "COPY AND PRODUCTION SERVICES": {
+  "tactic": "media",
+  "conf": 0.93,
+  "src": "jev-web-e"
+ },
+ "DATA PROCESSING": {
+  "tactic": "operations",
+  "conf": 0.91,
+  "src": "jev-web-e"
+ },
+ "DIGITAL AD PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL AUDIO PRODUCTION AND BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL MEDIA PRODUCTION / PLACEMENT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL PLACEMENT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL VIDEO PRODUCTION AND BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIRECT MAIL ADVERTISING": {
+  "tactic": "direct_contact",
+  "conf": 0.91,
+  "src": "jev-web-e"
+ },
+ "DISSEMINATION OF DIGITAL ADS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST FOR STAFF TIME FOR VOTER COMMUNICATIONS": {
+  "tactic": "operations",
+  "conf": 0.68,
+  "src": "jev-web-e"
+ },
+ "FUNDRAISING EMAIL": {
+  "tactic": "fundraising_ops",
+  "conf": 0.46,
+  "src": "jev-web-e"
+ },
+ "LABELS": {
+  "tactic": "direct_contact",
+  "conf": 0.73,
+  "src": "jev-web-e"
+ },
+ "LIST BROKERAGE SERVICES": {
+  "tactic": "direct_contact",
+  "conf": 0.66,
+  "src": "jev-web-e"
+ },
+ "MAIL AND PRINTSHOP": {
+  "tactic": "direct_contact",
+  "conf": 0.98,
+  "src": "jev-web-e"
+ },
+ "MAILER OPPOSING SUSAN COLLINS": {
+  "tactic": "direct_contact",
+  "conf": 0.68,
+  "src": "jev-web-e"
+ },
+ "MEDIA BUY ESTIMATE": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA PRODUCTION / PLACEMENT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA PRODUCTION ESTIMATE": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA PRODUCTION/PLACEMENT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA PRODUCTION/PLACEMENT/WEBSITE": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "POSTAGE AND PROCESSING FOR POSTCARD MAILERS STARTING 5/15/26": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "POSTCARD MAILERS": {
+  "tactic": "direct_contact",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "POSTCARDS": {
+  "tactic": "direct_contact",
+  "conf": 0.96,
+  "src": "jev-web-e"
+ },
+ "PRINT ADVERTISEMENT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PRINTING / POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "PRODUCTION OF DIGITAL ADS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO / DIGITAL AUDIO PLACEMENT AND PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "SMS TEXTING": {
+  "tactic": "direct_contact",
+  "conf": 0.89,
+  "src": "jev-web-e"
+ },
+ "STAFF TIME AND EMAILS FOR ONLINE MESSAGE (VIA DRAWDOWN)": {
+  "tactic": "direct_contact",
+  "conf": 0.37,
+  "src": "jev-web-e"
+ },
+ "STAFF TIME FOR VOTER COMMUNICATIONS": {
+  "tactic": "direct_contact",
+  "conf": 0.37,
+  "src": "jev-web-e"
+ },
+ "T-SHIRTS": {
+  "tactic": "direct_contact",
+  "conf": 0.79,
+  "src": "jev-web-e"
+ },
+ "TELEVISION ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV AD PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "VOTER CONTACT TEXTING - ESTIMATED AMOUNT": {
+  "tactic": "direct_contact",
+  "conf": 0.92,
+  "src": "jev-web-e"
+ },
+ "VOTER CONTACT TEXTING - FINAL AMOUNT OF ESTIMATE REPORTED ON 5/3": {
+  "tactic": "direct_contact",
+  "conf": 0.92,
+  "src": "jev-web-e"
+ },
+ "WEBSITE ENDORSEMENT": {
+  "tactic": "media",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "YARD SIGNS": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CAMPAIGN MANAGEMENT CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "CC TRANSACTION FEES": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "CREDIT CARD FEES": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "DATABASE": {
+  "tactic": "operations",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "DIGITAL AND FUNDRAISING CONSULTING": {
+  "tactic": "media",
+  "conf": 0.48,
+  "src": "jev-web"
+ },
+ "DIGITAL MARKETING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "DIRECT MAIL POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "DIRECT MAIL PRINTING": {
+  "tactic": "direct_contact",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "DIRECT MAIL PROCESSING": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "DIRECT MAIL SHIPPING": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "EXPENSE REIMBURSEMENT": {
+  "tactic": "operations",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "GRASSROOTS CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 0.86,
+  "src": "jev-web"
+ },
+ "JFC DIGITAL MARKETING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "LEGAL FEES": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "ONLINE ADS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "PAYROLL WAGES": {
+  "tactic": "operations",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "PRINTING: YARD SIGNS": {
+  "tactic": "direct_contact",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "PRINTING: YARD SIGNS AND BUMPER STICKERS": {
+  "tactic": "direct_contact",
+  "conf": 0.96,
+  "src": "jev-web"
+ },
+ "QUALIFYING FEE": {
+  "tactic": "legal_compliance",
+  "conf": 0.67,
+  "src": "jev-web"
+ },
+ "REFUND OF CONTRIBUTION": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "REFUND: CONTRIBUTION REFUND": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "REFUND: REFUND OF CONTRIBUTION": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "STRATEGY CONSULTING": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "UNKNOWN": {
+  "tactic": "operations",
+  "conf": 0.62,
+  "src": "jev-web"
+ },
+ "CAMPAIGN EVENT": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "COMPLIANCE SERVICES": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "CREDIT CARD PAYMENT - SEE BELOW IF ITEMIZED": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "CREDIT CARD PROCESSING FEE": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "GRAPHIC DESIGN": {
+  "tactic": "media",
+  "conf": 0.87,
+  "src": "jev-web"
+ },
+ "LIST ACQUISITION": {
+  "tactic": "direct_contact",
+  "conf": 0.63,
+  "src": "jev-web"
+ },
+ "PAYROLL - SEE BELOW IF ITEMIZED": {
+  "tactic": "operations",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "PAYROLL SERVICES": {
+  "tactic": "operations",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "PAYROLL TAXES & SERVICES": {
+  "tactic": "legal_compliance",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "RESEARCH": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "STORE MERCHANDISE": {
+  "tactic": "operations",
+  "conf": 0.85,
+  "src": "jev-web"
+ },
+ "COPY AND PRODUCTION": {
+  "tactic": "media",
+  "conf": 0.92,
+  "src": "jev-web-e"
+ },
+ "DATA MANAGEMENT": {
+  "tactic": "operations",
+  "conf": 0.98,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING & PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "EMAIL MESSAGING": {
+  "tactic": "direct_contact",
+  "conf": 0.98,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED AMOUNT - VOTER CONTACT TEXTING": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE- COLLINS - DONATION PROCESSING": {
+  "tactic": "fundraising_ops",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "IE- COLLINS- DIGITAL MARKETING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE-COLLINS-DIGITAL ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE-COLLINS-DIGITAL MARKETING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE-COLLINS-DIGITALPRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE-COLLINS-DIRECT MAIL PRODUCTION": {
+  "tactic": "direct_contact",
+  "conf": 0.83,
+  "src": "jev-web-e"
+ },
+ "LIST BROKERAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.49,
+  "src": "jev-web-e"
+ },
+ "LISTS": {
+  "tactic": "direct_contact",
+  "conf": 0.55,
+  "src": "jev-web-e"
+ },
+ "MAIL PRODUCTION (FROM ADVANCE LINE 21)": {
+  "tactic": "direct_contact",
+  "conf": 0.94,
+  "src": "jev-web-e"
+ },
+ "MAIL PRODUCTION/POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "MAILERS": {
+  "tactic": "direct_contact",
+  "conf": 0.95,
+  "src": "jev-web-e"
+ },
+ "MAILING LIST BROKERAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.7,
+  "src": "jev-web-e"
+ },
+ "MAILSHOP/POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "MAILSOP/POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "PHONE/TEXT MESSAGING (FROM ADVANCE LINE 21)": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "POLITICAL ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PRINT COMMUNICATIONS": {
+  "tactic": "media",
+  "conf": 0.49,
+  "src": "jev-web-e"
+ },
+ "PRINT/MAILSHOP": {
+  "tactic": "direct_contact",
+  "conf": 0.89,
+  "src": "jev-web-e"
+ },
+ "SMS TEXTING (ORIGINALLY REPORTED AS ESTIMATE ON 6/15/26)": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "STAFF TIME & EMAILS FOR ONLINE MESSAGE (VIA DRAWDOWN)": {
+  "tactic": "operations",
+  "conf": 0.48,
+  "src": "jev-web-e"
+ },
+ "VOTER CONTACT TEXTING - FINAL AMOUNT FOR ESTIMATE REPORTED ON 6/20": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "VOTER CONTACT TEXTING - FINAL AMOUNT FOR IE REPORTED ON 7/11": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "VOTER CONTACT TEXTING - FINAL AMOUNT FOR IE REPORTED ON 7/3": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "VOTER CONTACT TEXTING - FINAL COST OF INDEPENDENT EXPENDITURE REPORTED ON 7/25/2026 - UNPAID": {
+  "tactic": "direct_contact",
+  "conf": 0.98,
+  "src": "jev-web-e"
+ },
+ "VOTER DATA": {
+  "tactic": "operations",
+  "conf": 0.93,
+  "src": "jev-web-e"
+ },
+ "FINANCE AND COMPLIANCE SOFTWARE": {
+  "tactic": "operations",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "PAYROLL(VENDORS THAT AGGREGATE OVER $200 LISTED BELOW)": {
+  "tactic": "operations",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "FEDERAL CONTRIBUTION": {
+  "tactic": "transfers",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "FUNDRAISING AND COMPLIANCE SOFTWARE": {
+  "tactic": "operations",
+  "conf": 0.51,
+  "src": "jev-web"
+ },
+ "FUNDRAISING CONSULTANT": {
+  "tactic": "fundraising_ops",
+  "conf": 0.67,
+  "src": "jev-web"
+ },
+ "NEWSPAPER ADS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "PHONE BANKING": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "AIR TRAVEL": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "DIGITAL MEDIA PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "DIGITAL RETAINER": {
+  "tactic": "media",
+  "conf": 0.56,
+  "src": "jev-web"
+ },
+ "FLIGHTS": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "PAYROLL (VENDORS THAT AGGREGATE OVER $200 LISTED BELOW)": {
+  "tactic": "operations",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "PHOTOGRAPHY": {
+  "tactic": "media",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "CREDIT CARD PAYMENT (VENDORS THAT AGGREGATE OVER $200 LISTED BELOW)": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "SMS ACQUISITION": {
+  "tactic": "direct_contact",
+  "conf": 0.78,
+  "src": "jev-web"
+ },
+ "AGENCY FUNDRAISING FEE": {
+  "tactic": "fundraising_ops",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "AIR TRAVEL  (ERRONENOUSLY REPORTED AS BLUE MOUNTAIN)": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "APPAREL": {
+  "tactic": "operations",
+  "conf": 0.56,
+  "src": "jev-web"
+ },
+ "APRIL 2024": {
+  "tactic": "operations",
+  "conf": 0.59,
+  "src": "jev-web"
+ },
+ "BENTLER MILEAGE REIMBURSEMENT OFFICE SUPPLIES, POSTAGE, TRAVEL": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "BENTLER REIMBURSEMENT: SEE MEMO ENTRY": {
+  "tactic": "operations",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "BOOKKEEPING & COMPLIANCE": {
+  "tactic": "legal_compliance",
+  "conf": 0.94,
+  "src": "jev-web"
+ },
+ "BOOKKEEPING &AMP; COMPLIANCE": {
+  "tactic": "legal_compliance",
+  "conf": 0.93,
+  "src": "jev-web"
+ },
+ "BOOKKEEPING AND COMPLIANCE": {
+  "tactic": "legal_compliance",
+  "conf": 0.89,
+  "src": "jev-web"
+ },
+ "BUMPER STICKERS": {
+  "tactic": "direct_contact",
+  "conf": 0.54,
+  "src": "jev-web"
+ },
+ "CAGING SERVICES": {
+  "tactic": "operations",
+  "conf": 0.37,
+  "src": "jev-web"
+ },
+ "CAMPAIGN EVENT BACKDROPS AND DISPLAYS": {
+  "tactic": "events",
+  "conf": 0.37,
+  "src": "jev-web"
+ },
+ "CAMPAIGN SIGNS": {
+  "tactic": "direct_contact",
+  "conf": 0.9,
+  "src": "jev-web"
+ },
+ "CANDIDATE LITERATURE / DOOR HANGER": {
+  "tactic": "direct_contact",
+  "conf": 0.95,
+  "src": "jev-web"
+ },
+ "CANDIDATE LOAN": {
+  "tactic": "transfers",
+  "conf": 0.37,
+  "src": "jev-web"
+ },
+ "CREDIT CARD EXPENDITURES: TRAVEL, OFFICE SUPPLIES, FUNDRAISING EVENT: SEE MEMO ENTRY": {
+  "tactic": "fundraising_ops",
+  "conf": 0.64,
+  "src": "jev-web"
+ },
+ "DIGITAL FUNDRAISING / FUNDRAISING CONSULTING": {
+  "tactic": "media",
+  "conf": 0.63,
+  "src": "jev-web"
+ },
+ "DIGITAL FUNDRAISING SERVICES": {
+  "tactic": "media",
+  "conf": 0.76,
+  "src": "jev-web"
+ },
+ "DIGITAL MEDIA AD BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "DIGITAL MEDIA AD BUY / DIGITAL FUNDRAISING CONSULTING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "DIRECT MAIL EXPENSE": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "DIRECT MAIL SERVICES AND POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "DOMAIN PURCHASE": {
+  "tactic": "operations",
+  "conf": 0.79,
+  "src": "jev-web"
+ },
+ "DONOR THANK YOUS": {
+  "tactic": "fundraising_ops",
+  "conf": 0.38,
+  "src": "jev-web"
+ },
+ "EVENT REGISTRATION CROW FAIR WEEK": {
+  "tactic": "events",
+  "conf": 0.93,
+  "src": "jev-web"
+ },
+ "FEDERAL PAYROLL TAX": {
+  "tactic": "legal_compliance",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "FOOD AND VENUE FOR FUNDRAISER": {
+  "tactic": "events",
+  "conf": 0.97,
+  "src": "jev-web"
+ },
+ "FUNDRAISING / DIRECT MAIL": {
+  "tactic": "direct_contact",
+  "conf": 0.45,
+  "src": "jev-web"
+ },
+ "FUNDRAISING EVENT CATERING": {
+  "tactic": "events",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "FUNDRAISING MAILER - PRODUCTION AND POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.73,
+  "src": "jev-web"
+ },
+ "GENERAL CAMPAIGN CONSULTING/OFFICE SUPPLIES": {
+  "tactic": "legal_compliance",
+  "conf": 0.6,
+  "src": "jev-web"
+ },
+ "MEAL": {
+  "tactic": "operations",
+  "conf": 0.48,
+  "src": "jev-web"
+ },
+ "MEDIA PLACEMENT AND PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "MERCHANDISE AND INVENTORY": {
+  "tactic": "operations",
+  "conf": 0.56,
+  "src": "jev-web"
+ },
+ "MITA REIMBURSEMENT: SEE MEMO ENTRIES": {
+  "tactic": "operations",
+  "conf": 0.96,
+  "src": "jev-web"
+ },
+ "MITA REIMBURSEMENT: SEE MEMO ENTRY": {
+  "tactic": "operations",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "MT PAYROLL TAX": {
+  "tactic": "legal_compliance",
+  "conf": 0.95,
+  "src": "jev-web"
+ },
+ "PAYROLL AND PAYROLL TAXES": {
+  "tactic": "operations",
+  "conf": 0.43,
+  "src": "jev-web"
+ },
+ "PERSONAL FUNDS - CANDIDATE LOAN": {
+  "tactic": "fundraising_ops",
+  "conf": 0.27,
+  "src": "jev-web"
+ },
+ "PHONE BANK": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "PO BOX AND SHIPPING REIMBURSEMENT": {
+  "tactic": "operations",
+  "conf": 0.73,
+  "src": "jev-web"
+ },
+ "POSTAGE AND SHIPPING REIMBURSEMENT": {
+  "tactic": "operations",
+  "conf": 0.54,
+  "src": "jev-web"
+ },
+ "PRINTING: THANK YOU CARDS AND DONATION REMI ENVELOPES": {
+  "tactic": "direct_contact",
+  "conf": 0.64,
+  "src": "jev-web"
+ },
+ "PROCESSING FEE": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "RECOUNT: CONTRIBUTION FOR NRSC LEGAL ACCOUNT": {
+  "tactic": "transfers",
+  "conf": 0.96,
+  "src": "jev-web"
+ },
+ "REFUND": {
+  "tactic": "fundraising_ops",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "REIMBURSEMENT FUNDRAISING MEAL + BEVERAGES/TRAVEL": {
+  "tactic": "operations",
+  "conf": 0.5,
+  "src": "jev-web"
+ },
+ "REIMBURSEMENT FUNDRAISING MEAL/TRAVEL": {
+  "tactic": "operations",
+  "conf": 0.6,
+  "src": "jev-web"
+ },
+ "REIMBURSEMENT SEE MEMO ENTRY": {
+  "tactic": "operations",
+  "conf": 0.9,
+  "src": "jev-web"
+ },
+ "RENT: OFFICE SPACE, CONFERENCE ROOM, ADMINISTRATIVE LABOR": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "SECURITY CONSULTING": {
+  "tactic": "operations",
+  "conf": 0.67,
+  "src": "jev-web"
+ },
+ "SECURITY CONSULTING + TRAVEL REIMBURSMENT": {
+  "tactic": "operations",
+  "conf": 0.92,
+  "src": "jev-web"
+ },
+ "SHEEHY REIMBURSEMENT: SEE MEMO ENTRIES": {
+  "tactic": "operations",
+  "conf": 0.92,
+  "src": "jev-web"
+ },
+ "SMS-VOTE SHEEHY": {
+  "tactic": "direct_contact",
+  "conf": 0.96,
+  "src": "jev-web"
+ },
+ "SMS/MMS DEVELOPMENT SERVICES": {
+  "tactic": "direct_contact",
+  "conf": 0.62,
+  "src": "jev-web"
+ },
+ "SMS/PHONE BANK": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "SPONSORSHIP EXPENSE": {
+  "tactic": "legal_compliance",
+  "conf": 0.24,
+  "src": "jev-web"
+ },
+ "STAFF HEALTH INSURANCE": {
+  "tactic": "operations",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "SURVEY RESEARCH": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "TEXTING SERVICES": {
+  "tactic": "direct_contact",
+  "conf": 0.94,
+  "src": "jev-web"
+ },
+ "THANK YOU INVOICE": {
+  "tactic": "fundraising_ops",
+  "conf": 0.36,
+  "src": "jev-web"
+ },
+ "THANK YOUS": {
+  "tactic": "fundraising_ops",
+  "conf": 0.52,
+  "src": "jev-web"
+ },
+ "TRAVEL AND MEETING": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "TRAVEL AND MEETINGS": {
+  "tactic": "operations",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "TRAVEL REIMBURSEMENT": {
+  "tactic": "operations",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "VENUE AND FOOD FOR MEET AND GREET": {
+  "tactic": "events",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "ACTUAL COST FOR  MAIL PIECE PRODUCTION, PRINTING AND POSTAGE AS DISCLOSED ON 10/16 48-HR REPORT": {
+  "tactic": "direct_contact",
+  "conf": 0.91,
+  "src": "jev-web-e"
+ },
+ "ACTUAL COST FOR DISTRIBUTION OF DIGITAL ADS AS DISCLOSED ON 10/31 24-HR REPORT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ACTUAL COST FOR MAIL PIECE PRODUCTION, PRINTING AND POSTAGE AS DISCL ON 10/27 24-HR REPORT": {
+  "tactic": "direct_contact",
+  "conf": 0.89,
+  "src": "jev-web-e"
+ },
+ "ACTUAL COST FOR MAIL PIECE PRODUCTION, PRINTING AND POSTAGE AS DISCLOSED ON 10/16 48-HR REPORT": {
+  "tactic": "direct_contact",
+  "conf": 0.86,
+  "src": "jev-web-e"
+ },
+ "ACTUAL COST FOR PRODUCTION AND DISTRIBUTION OF DIGITAL ADS AS DISCLOSED ON 10/16 48-HR REPORT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ACTUAL COST FOR TELEPHONE CALLS DISCLOSED ON 10/26 24-HOUR REPORT": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ACTUAL PAYROLL, TAXES AND BENEFITS FOR CANVASS TEAM": {
+  "tactic": "operations",
+  "conf": 0.83,
+  "src": "jev-web-e"
+ },
+ "ADDITIONAL PEER TO PEER TEXING 10/29-11/5 - ESTIMATE": {
+  "tactic": "direct_contact",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "ADS SUPPORTING JON TESTER": {
+  "tactic": "media",
+  "conf": 0.98,
+  "src": "jev-web-e"
+ },
+ "ADVERTISEMENT PRO SHEEHY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ADVERTISING PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "BILLBOARD & DIGITAL ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "CANVASS LITERATURE": {
+  "tactic": "direct_contact",
+  "conf": 0.92,
+  "src": "jev-web-e"
+ },
+ "CANVASS SUPPORTING JON TESTER": {
+  "tactic": "direct_contact",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "CANVASSING LITERATURE": {
+  "tactic": "direct_contact",
+  "conf": 0.95,
+  "src": "jev-web-e"
+ },
+ "CANVASSING LITERATURE; ALSO OPPOSING JACK SHEEHY": {
+  "tactic": "direct_contact",
+  "conf": 0.77,
+  "src": "jev-web-e"
+ },
+ "CANVASSING LITERATURE; ALSO OPPOSING TIM SHEEHY": {
+  "tactic": "direct_contact",
+  "conf": 0.65,
+  "src": "jev-web-e"
+ },
+ "CANVASSING VIA TEXT 10/1-10/16 TESTER ACTUAL": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "CANVASSING VIA TEXT 10/17-11/3 TESTER ACTUAL": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "CANVASSING VIA TEXT 10/17-11/4 TESTER ACTUAL": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "CANVASSING VIA TEXT 9/23-11/5 - ESTIMATE": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "CANVASSING VIA TEXT 9/23-9/30 TESTER ACTUAL": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "DIGITAL & PRINT ADVERTISING (ESTIMATE)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL AD BUY, FACEBOOK DISPLAY & SET UP": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADS (ACTUAL; ESTIMATE REPORTED 10/18)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING (ACTUAL - ESTIMATE REPORTED AS $20,200)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING (ACTUAL - ESTIMATE REPORTED AS $6K)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING (SEE [SB21B:6966; SB21B:6967])": {
+  "tactic": "media",
+  "conf": 0.98,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING PRODUCTION AND AD BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL ADVERTISING; IE-ONLY ACCOUNT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL MEDIA BUY AND PRODUCTION COSTS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL MEDIA PLACEMENT / DIGITAL MEDIA PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL MEDIA PRODUCTION COSTS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL PLACEMENT AND PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIGITAL PRODUCTION COSTS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "DIRECT MAIL - PAYMENT FOR IE TO BE DISSEMINATED ON 10/18": {
+  "tactic": "direct_contact",
+  "conf": 0.77,
+  "src": "jev-web-e"
+ },
+ "DIRECT MAIL ADVERTISING BUY": {
+  "tactic": "media",
+  "conf": 0.5,
+  "src": "jev-web-e"
+ },
+ "DIRECT MAIL: PRINTING AND POSTAGE - SEE SCHEDULE B": {
+  "tactic": "direct_contact",
+  "conf": 0.84,
+  "src": "jev-web-e"
+ },
+ "DOOR HANGER PRODUCTION": {
+  "tactic": "direct_contact",
+  "conf": 0.76,
+  "src": "jev-web-e"
+ },
+ "EMAIL MARKETING": {
+  "tactic": "direct_contact",
+  "conf": 0.83,
+  "src": "jev-web-e"
+ },
+ "EMAILS AND TEXT MESSAGES": {
+  "tactic": "direct_contact",
+  "conf": 0.84,
+  "src": "jev-web-e"
+ },
+ "ESTIMATE OF PAYROLL, TAXES AND BENEFITS FOR CANVASS TEAM": {
+  "tactic": "operations",
+  "conf": 0.92,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - BILLBOARD ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - BILLBOARDS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - DIRECT MAIL": {
+  "tactic": "direct_contact",
+  "conf": 0.7,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - HIGHWAY SIGNS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - NEWSPAPER AD": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - NEWSPAPER ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - STAFF SALARIES & BENEFITS": {
+  "tactic": "operations",
+  "conf": 0.97,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - TELEPHONE SERVICES": {
+  "tactic": "direct_contact",
+  "conf": 0.9,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST - YARD SIGNS": {
+  "tactic": "direct_contact",
+  "conf": 0.88,
+  "src": "jev-web-e"
+ },
+ "ESTIMATED COST FOR MAIL PIECE PRODUCTION, PRINTING AND POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.86,
+  "src": "jev-web-e"
+ },
+ "GIF ADS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "GOTV MAIL": {
+  "tactic": "direct_contact",
+  "conf": 0.94,
+  "src": "jev-web-e"
+ },
+ "GOTV POSTCARDS": {
+  "tactic": "direct_contact",
+  "conf": 0.91,
+  "src": "jev-web-e"
+ },
+ "GOTV: LIVE CALLS": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "IE DIGITAL MEDIA AD PLACEMENT OPPOSE JON TESTER - MT SENATE": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE NEWSPAPER ADVERTISING PLACEMENT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE-SHEEHY-DIGITAL ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE-SHEEHY-DIRECT MAIL PRODUCTION": {
+  "tactic": "direct_contact",
+  "conf": 0.42,
+  "src": "jev-web-e"
+ },
+ "IE-SHEEHY-MEDIA BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IE-SHEEHY-MEDIA PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "IN-KIND OFFSET: EMAIL COMMUNICATION / SMS MESSAGING": {
+  "tactic": "direct_contact",
+  "conf": 0.58,
+  "src": "jev-web-e"
+ },
+ "INDEPENDENT EXPENDITURE - YARD SIGNS": {
+  "tactic": "direct_contact",
+  "conf": 0.8,
+  "src": "jev-web-e"
+ },
+ "INDEPENDENT EXPENDITURE DOOR CANVAS": {
+  "tactic": "direct_contact",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "LETTER IN SUPPORT OF TIM SHEEHY": {
+  "tactic": "direct_contact",
+  "conf": 0.47,
+  "src": "jev-web-e"
+ },
+ "MAGAZINE AD": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MAIL PRINTING, PRODUCTION & POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.9,
+  "src": "jev-web-e"
+ },
+ "MAIL PRINTING, PRODUCTION, & POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.87,
+  "src": "jev-web-e"
+ },
+ "MAIL PRINTING. PRODUCTION, & POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.84,
+  "src": "jev-web-e"
+ },
+ "MAIL PRODUCTION AND POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.94,
+  "src": "jev-web-e"
+ },
+ "MAILER POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.96,
+  "src": "jev-web-e"
+ },
+ "MAILER PRODUCTION": {
+  "tactic": "direct_contact",
+  "conf": 0.74,
+  "src": "jev-web-e"
+ },
+ "MAILING PRINTING AND POSTAGE": {
+  "tactic": "direct_contact",
+  "conf": 0.91,
+  "src": "jev-web-e"
+ },
+ "MEDIA PLACEMENT & PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA PLACEMENT/TEXT MESSAGING": {
+  "tactic": "media",
+  "conf": 0.75,
+  "src": "jev-web-e"
+ },
+ "MEDIA PLACEMENT/VIDEO ADS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA PRODUCTION COSTS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "MEDIA PRODUCTION | ORIG RPT ESTIMATE $30,000 6/27/24": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "NEWSPAPER ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "NON-CONTRIBUTION ACCT: ONLINE ADVERTISING / EMAIL COMMUNICATION / SMS MESSAGES": {
+  "tactic": "media",
+  "conf": 0.61,
+  "src": "jev-web-e"
+ },
+ "ONLINE ADS | ORIG RPT ESTIMATE $10,000 10/15/24": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ONLINE ADS | ORIG RPT ESTIMATE $10,000 10/16/24": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ONLINE ADVERTISING - FILED ON 09/03/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ONLINE ADVERTISING - FILED ON 09/10/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ONLINE ADVERTISING - FILED ON 09/17/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ONLINE ADVERTISING - FILED ON 09/24/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ONLINE ADVERTISING - FILED ON 10/01/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ONLINE ADVERTISING - FILED ON 10/08/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ONLINE ADVERTISING - FILED ON 10/15/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ONLINE ADVERTISING - FILED ON 10/22/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ONLINE ADVERTISING - FILED ON 10/29/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "ONLINE CONTENT & PRODUCTION": {
+  "tactic": "media",
+  "conf": 0.99,
+  "src": "jev-web-e"
+ },
+ "ONLINE VIDEO PRODUCTION COSTS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PAYMENT FOR ACTUAL COST OF POSTCARDS DISCLOSED ON 10/18 24-HOUR NOTICE": {
+  "tactic": "direct_contact",
+  "conf": 0.94,
+  "src": "jev-web-e"
+ },
+ "PAYMENT FOR CANVASS SALARY DISCLOSED ON SCHEDULE D OF OCTOBER QUARTERLY REPORT": {
+  "tactic": "operations",
+  "conf": 0.8,
+  "src": "jev-web-e"
+ },
+ "PAYROLL, TAXES AND BENEFITS FOR CANVASS TEAM": {
+  "tactic": "operations",
+  "conf": 0.84,
+  "src": "jev-web-e"
+ },
+ "PERSUASION CALLS": {
+  "tactic": "direct_contact",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PLACED MEDIA: RADIO": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PLACED MEDIA: RADIO (ACTUAL)": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PLACED MEDIA: TV (SEE [SB21B:6965])": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "POSTAGE / PRINTING / PRODUCTION - FILED ON 07/23/2024": {
+  "tactic": "direct_contact",
+  "conf": 0.6,
+  "src": "jev-web-e"
+ },
+ "POSTAGE / PRINTING / PRODUCTION - FILED ON 07/30/2024": {
+  "tactic": "direct_contact",
+  "conf": 0.62,
+  "src": "jev-web-e"
+ },
+ "POSTAGE / PRINTING / PRODUCTION - FILED ON 08/06/2024": {
+  "tactic": "direct_contact",
+  "conf": 0.66,
+  "src": "jev-web-e"
+ },
+ "POSTAGE / PRINTING / PRODUCTION - FILED ON 08/13/2024": {
+  "tactic": "direct_contact",
+  "conf": 0.68,
+  "src": "jev-web-e"
+ },
+ "POSTAGE / PRINTING / PRODUCTION - FILED ON 08/20/2024": {
+  "tactic": "direct_contact",
+  "conf": 0.54,
+  "src": "jev-web-e"
+ },
+ "PRE-PAYMENT FOR DIRECT MAIL DISSEMINATED ON 10/3/24": {
+  "tactic": "direct_contact",
+  "conf": 0.89,
+  "src": "jev-web-e"
+ },
+ "PRE-PAYMENT FOR FUTURE BILLBOARDS IN MONTANA": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PRODUCTION AND PLACEMENT OF DIGITAL MEDIA AD TO OPPOSE JON TESTER": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PRODUCTION COST: TV AD": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PRODUCTION COST: TV AND DIGITAL AD": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "PRODUCTION OF DIGITAL ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO ADVERTISEMENT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO ADVERTISEMENTS": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO ADVERTISING BUY": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO PLACEMENT - FILED ON 09/03/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO PLACEMENT - FILED ON 09/10/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO PLACEMENT - FILED ON 09/17/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO PLACEMENT - FILED ON 09/24/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO PLACEMENT - FILED ON 10/01/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO PLACEMENT - FILED ON 10/08/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO PLACEMENT - FILED ON 10/15/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO PLACEMENT - FILED ON 10/22/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "RADIO PLACEMENT - FILED ON 10/29/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "STREAMING AUDIO ADVERTISING": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TARGETING FOR ADS SUPPORTING JON TESTER": {
+  "tactic": "media",
+  "conf": 0.94,
+  "src": "jev-web-e"
+ },
+ "TEAMSTERS 2024 GOTV DIGITAL ADS": {
+  "tactic": "media",
+  "conf": 0.98,
+  "src": "jev-web-e"
+ },
+ "TELEVISION ADVERTISING PRODUCTION": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TEXT MESSAGING | ORIG RPT  ESTIMATE $150,000 10/15/24": {
+  "tactic": "direct_contact",
+  "conf": 0.73,
+  "src": "jev-web-e"
+ },
+ "TEXT MESSAGING | ORIG RPT ESTIMATE $10,000 8/6/24": {
+  "tactic": "direct_contact",
+  "conf": 0.71,
+  "src": "jev-web-e"
+ },
+ "TEXT MESSAGING | ORIG RPT ESTIMATE $100,000 10/15/24": {
+  "tactic": "direct_contact",
+  "conf": 0.78,
+  "src": "jev-web-e"
+ },
+ "TEXT MESSAGING | ORIG RPT ESTIMATE $14,000 8/6/24": {
+  "tactic": "direct_contact",
+  "conf": 0.58,
+  "src": "jev-web-e"
+ },
+ "TEXT MESSAGING | ORIG RPT ESTIMATE $15,000 6/27/24": {
+  "tactic": "direct_contact",
+  "conf": 0.69,
+  "src": "jev-web-e"
+ },
+ "TEXT MESSAGING | ORIG RPT ESTIMATE $30,000 9/19/24": {
+  "tactic": "direct_contact",
+  "conf": 0.68,
+  "src": "jev-web-e"
+ },
+ "TEXT MESSAGING | ORIG RPT ESTIMATE $3200 5/16/24": {
+  "tactic": "direct_contact",
+  "conf": 0.63,
+  "src": "jev-web-e"
+ },
+ "TEXT MESSAGING | ORIG RPT ESTIMATE $45,000 6/27/24": {
+  "tactic": "direct_contact",
+  "conf": 0.67,
+  "src": "jev-web-e"
+ },
+ "TEXT SERVICES": {
+  "tactic": "direct_contact",
+  "conf": 0.77,
+  "src": "jev-web-e"
+ },
+ "TV AD PLACEMENT": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PLACEMENT - FILED ON 09/03/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PLACEMENT - FILED ON 09/10/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PLACEMENT - FILED ON 09/17/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PLACEMENT - FILED ON 09/24/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PLACEMENT - FILED ON 10/01/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PLACEMENT - FILED ON 10/08/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PLACEMENT - FILED ON 10/15/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PLACEMENT - FILED ON 10/22/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PLACEMENT - FILED ON 10/29/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 09/03/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 09/10/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 09/12/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 09/17/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 09/22/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 09/24/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 09/30/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 10/01/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 10/08/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 10/09/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 10/15/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 10/18/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 10/22/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "TV/MEDIA PRODUCTION - FILED ON 10/29/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 09/03/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 09/10/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 09/12/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 09/17/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 09/24/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 09/30/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 10/01/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 10/08/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 10/09/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 10/15/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 10/18/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 10/22/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 10/27/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEB AD - FILED ON 10/29/2024": {
+  "tactic": "media",
+  "conf": 1.0,
+  "src": "jev-web-e"
+ },
+ "WEBSITE DESIGN & HOSTING": {
+  "tactic": "operations",
+  "conf": 0.58,
+  "src": "jev-web-e"
+ }
+}
