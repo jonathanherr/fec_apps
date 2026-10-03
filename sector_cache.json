@@ -778,5 +778,70 @@
   "sector": "health",
   "conf": 0.38,
   "src": "jev-web"
+ },
+ "CIA": {
+  "sector": "unknown",
+  "conf": 0.74,
+  "src": "jev-web"
+ },
+ "EVENT PLANNER": {
+  "sector": "admin_service",
+  "conf": 0.93,
+  "src": "jev-web"
+ },
+ "HUB CONTROLLER": {
+  "sector": "technical",
+  "conf": 0.85,
+  "src": "jev-web"
+ },
+ "MNGR": {
+  "sector": "business_exec",
+  "conf": 0.91,
+  "src": "jev-web"
+ },
+ "NEW YORK": {
+  "sector": "unknown",
+  "conf": 0.98,
+  "src": "jev-web"
+ },
+ "NURSE": {
+  "sector": "health",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "PLANNER": {
+  "sector": "admin_service",
+  "conf": 0.84,
+  "src": "jev-web"
+ },
+ "PLANNING": {
+  "sector": "admin_service",
+  "conf": 0.62,
+  "src": "jev-web"
+ },
+ "PROGRAM MANAGER": {
+  "sector": "business_exec",
+  "conf": 0.66,
+  "src": "jev-web"
+ },
+ "SALES  MKTG": {
+  "sector": "business_exec",
+  "conf": 0.56,
+  "src": "jev-web"
+ },
+ "TECHNICAL WRITER": {
+  "sector": "technical",
+  "conf": 0.87,
+  "src": "jev-web"
+ },
+ "UTP WIRELESS": {
+  "sector": "technical",
+  "conf": 0.7,
+  "src": "jev-web"
+ },
+ "VICE CHAIRMAN": {
+  "sector": "business_exec",
+  "conf": 0.99,
+  "src": "jev-web"
  }
 }

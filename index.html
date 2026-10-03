@@ -57,6 +57,7 @@
 </div>
 
 <h2>3. Matchup</h2>
+<p class="sub">Each side is a set of specific committees — not "the campaign". Add several per side if a candidate runs through multiple vehicles; money moving between a side's own committees is eliminated from spending totals. Check vehicle types: principal, JFC, leadership PAC, super PAC.</p>
 <div class="grid">
   <div class="side" id="sideA"><h3>Side A — <span class="sub">none</span></h3></div>
   <div class="side" id="sideB"><h3>Side B — <span class="sub">none</span></h3></div>
@@ -89,11 +90,12 @@ async function loadPresets() {
   presets.forEach(p => {
     const d = document.createElement("div");
     d.className = "card";
-    d.innerHTML = `<b>${p.name}</b><span>${p.a.label} (${p.a.committee_id}) vs ${p.b.label} (${p.b.committee_id})</span>`;
+    const ids = s => s.committees.map(c => c.committee_id).join(" + ");
+    d.innerHTML = `<b>${p.name}</b><span>${p.a.label} (${ids(p.a)}) vs ${p.b.label} (${ids(p.b)})${p.note ? "<br>" + p.note : ""}</span>`;
     d.onclick = () => {
       document.querySelectorAll(".card").forEach(c => c.classList.remove("sel"));
       d.classList.add("sel");
-      sel = {a: {...p.a}, b: {...p.b}, cycle: p.cycle};
+      sel = {a: JSON.parse(JSON.stringify(p.a)), b: JSON.parse(JSON.stringify(p.b)), cycle: p.cycle, note: p.note};
       $("cycle").value = String(p.cycle);
       renderSides();
     };
@@ -101,14 +103,27 @@ async function loadPresets() {
   });
 }
 
+function chip(s, i, c) {
+  return `<span style="display:inline-block;border:1px solid #aaa;border-radius:10px;padding:0 4px 0 8px;margin:2px;font-size:.82rem;"><code>${c.committee_id}</code> ${(c.committee_name || "").slice(0, 32)} <a href="#" data-side="${s}" data-i="${i}" style="text-decoration:none;">×</a></span>`;
+}
+
 function renderSides() {
   for (const s of ["a", "b"]) {
     const v = sel[s];
-    $(s === "a" ? "sideA" : "sideB").innerHTML = v
-      ? `<h3>Side ${s.toUpperCase()} — ${v.label}</h3><div class="meta">${v.committee_name || ""}<br><code>${v.committee_id}</code> · cycle ${sel.cycle}</div>`
-      : `<h3>Side ${s.toUpperCase()} — <span class="sub">none</span></h3>`;
+    const el = $(s === "a" ? "sideA" : "sideB");
+    if (!v || !v.committees || !v.committees.length) {
+      el.innerHTML = `<h3>Side ${s.toUpperCase()} — <span class="sub">none</span></h3>`;
+      continue;
+    }
+    el.innerHTML = `<h3>Side ${s.toUpperCase()} — ${v.label}</h3><div>${v.committees.map((c, i) => chip(s, i, c)).join("")}</div><div class="meta">cycle ${sel.cycle}${v.note ? " · " + v.note : ""}</div>`;
   }
-  $("run").disabled = !(sel.a && sel.b);
+  document.querySelectorAll("#sideA a, #sideB a").forEach(x => x.onclick = (e) => {
+    e.preventDefault();
+    sel[x.dataset.side].committees.splice(parseInt(x.dataset.i), 1);
+    renderSides();
+  });
+  const ok = sel.a && sel.a.committees && sel.a.committees.length && sel.b && sel.b.committees && sel.b.committees.length;
+  $("run").disabled = !ok;
 }
 
 let searchTimer = null;
@@ -144,8 +159,14 @@ async function showCommittees(c) {
       <button data-s="a">→ A</button><button data-s="b">→ B</button>`;
     d.querySelectorAll("button").forEach(b => b.onclick = (e) => {
       e.stopPropagation();
-      sel[b.dataset.s] = {label: c.name.split(",")[0], committee_id: k.committee_id, committee_name: k.name, candidate_id: c.candidate_id};
+      const s = b.dataset.s;
+      if (!sel[s] || !sel[s].committees) sel[s] = {label: c.name.split(",")[0], candidate_id: c.candidate_id, committees: []};
+      if (!sel[s].committees.some(x => x.committee_id === k.committee_id)) {
+        sel[s].committees.push({committee_id: k.committee_id, committee_name: k.name});
+      }
+      if (!sel[s].candidate_id) sel[s].candidate_id = c.candidate_id;
       sel.cycle = parseInt($("cycle").value);
+      sel.note = null;
       document.querySelectorAll(".card").forEach(x => x.classList.remove("sel"));
       renderSides();
     });
@@ -161,8 +182,8 @@ $("run").onclick = async () => {
   const bar = $("progress").querySelector(".bar > div");
   const {job_id} = await api("/api/analyze", {
     method: "POST", headers: {"Content-Type": "application/json"},
-    body: JSON.stringify({a_committee: sel.a.committee_id, a_label: sel.a.label,
-      a_candidate: sel.a.candidate_id, b_committee: sel.b.committee_id,
+    body: JSON.stringify({a_committees: sel.a.committees.map(c => ({committee_id: c.committee_id, committee_name: c.committee_name})), a_label: sel.a.label,
+      a_candidate: sel.a.candidate_id, b_committees: sel.b.committees.map(c => ({committee_id: c.committee_id, committee_name: c.committee_name})),
       b_label: sel.b.label, b_candidate: sel.b.candidate_id,
       cycle: sel.cycle, max_pages: parseInt($("depth").value)}),
   });
@@ -192,8 +213,12 @@ function showResults(r) {
   const share = (s, t) => s.spend_total ? (100 * (s.spend_by_tactic[t] || 0) / s.spend_total).toFixed(1) + "%" : "—";
   let h = `<p><button id="tabBars" class="primary">Bars</button> <button id="tabSankey">Outside-money Sankey</button></p>`;
   h += `<div id="viewBars">`;
+  const comLine = s => s.committees.map(c => `<code>${c.committee_id}</code> ${(c.committee_name || "").slice(0, 40)} (${fmt$(c.disbursements)})`).join("<br>");
+  const elimLine = s => s.internal_transfer_count ? ` · ${fmt$(s.internal_transfers_excluded)} internal transfers (${s.internal_transfer_count} records) eliminated` : "";
   h += `<p>Spend sample: <b>${a.label}</b> ${fmt$(a.spend_total)} over ${a.records_in_year} records (${(100 * (a.coverage || 0)).toFixed(1)}% of cycle disbursements) ·
     <b>${b.label}</b> ${fmt$(b.spend_total)} over ${b.records_in_year} records (${(100 * (b.coverage || 0)).toFixed(1)}%).</p>`;
+  h += `<p class="sub">Side ${a.label}:<br>${comLine(a)}${elimLine(a)}<br>Side ${b.label}:<br>${comLine(b)}${elimLine(b)}<br>
+    Scope: one side may hold several committees; money moving between a side's own committees (matched by recipient ID) is eliminated, never counted as spending.${sel.note ? " " + sel.note : ""}</p>`;
   h += `<div class="grid"><div><canvas id="cA"></canvas></div><div><canvas id="cB"></canvas></div></div>`;
   h += `<table><tr><th>Tactic</th><th>${a.label} $</th><th>${a.label} share</th><th>${b.label} $</th><th>${b.label} share</th></tr>` +
     TACTICS.map(t => `<tr><td>${t}</td><td class="num">${fmt$(a.spend_by_tactic[t])}</td><td class="num">${share(a, t)}</td><td class="num">${fmt$(b.spend_by_tactic[t])}</td><td class="num">${share(b, t)}</td></tr>`).join("") + `</table>`;

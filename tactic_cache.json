@@ -3718,5 +3718,35 @@
   "tactic": "operations",
   "conf": 0.58,
   "src": "jev-web-e"
+ },
+ "LEGAL CONSULTING  & EXPENSES": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "LEGAL CONSULTING & EXPENSES": {
+  "tactic": "legal_compliance",
+  "conf": 1.0,
+  "src": "jev-web"
+ },
+ "REIMBURSEMENT FOR LEGAL FEES": {
+  "tactic": "legal_compliance",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "TRAVEL: LODGING & CATERING SERVICES": {
+  "tactic": "operations",
+  "conf": 0.87,
+  "src": "jev-web"
+ },
+ "CHARITABLE CONTRIBUTION": {
+  "tactic": "transfers",
+  "conf": 0.99,
+  "src": "jev-web"
+ },
+ "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS": {
+  "tactic": "operations",
+  "conf": 0.5,
+  "src": "jev-web-e"
  }
 }

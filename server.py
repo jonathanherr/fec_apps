@@ -163,16 +163,44 @@ def sample_schedule_a(committee_id, cycle, n=100):
     return d["results"]
 
 
-def analyze_side(committee_id, label, cycle, max_pages, progress_cb):
-    totals_d = fec("/committee/%s/totals/" % committee_id, {"cycle": cycle})
-    totals = totals_d["results"][0] if totals_d["results"] else {}
-    progress_cb("totals", 0)
+def analyze_side(committees, label, cycle, max_pages, progress_cb):
+    """Multi-committee side. Internal transfers (recipient in-side) are
+    eliminated so JFC->principal plumbing never double-counts."""
+    if isinstance(committees, dict):
+        committees = [committees]
+    side_ids = set(c["committee_id"] for c in committees)
 
-    recs = walk_schedule_b(committee_id, cycle, max_pages, 100,
-                           lambda n: progress_cb("walking", n))
+    breakdown, totals_sum = [], {"receipts": 0, "disbursements": 0,
+                                 "individual_contributions": 0}
+    for i, c in enumerate(committees):
+        cid = c["committee_id"]
+        totals_d = fec("/committee/%s/totals/" % cid, {"cycle": cycle})
+        t = totals_d["results"][0] if totals_d["results"] else {}
+        breakdown.append({"committee_id": cid,
+                          "committee_name": c.get("committee_name") or
+                          t.get("committee_name") or cid,
+                          "receipts": t.get("receipts"),
+                          "disbursements": t.get("disbursements")})
+        for k in totals_sum:
+            totals_sum[k] += t.get(k) or 0
+        progress_cb("totals", i + 1)
+
+    recs, seen = [], set()
+    for c in committees:
+        for x in walk_schedule_b(c["committee_id"], cycle, max_pages, 100,
+                                 lambda n: progress_cb("walking", n)):
+            if x.get("sub_id") not in seen:
+                seen.add(x["sub_id"])
+                recs.append(x)
     year = str(cycle)
     recs_y = [x for x in recs
               if (x.get("disbursement_date") or "").startswith(year)]
+
+    internal = [x for x in recs_y
+                if (x.get("recipient_committee_id") or
+                    x.get("unused_recipient_committee_id")) in side_ids]
+    internal_total = sum(x.get("disbursement_amount") or 0 for x in internal)
+    recs_y = [x for x in recs_y if x not in internal]
 
     descs = sorted(set((x.get("disbursement_description") or "UNKNOWN")
                        for x in recs_y))
@@ -192,7 +220,9 @@ def analyze_side(committee_id, label, cycle, max_pages, progress_cb):
         spend[tactic] = spend.get(tactic, 0) + (x.get("disbursement_amount") or 0)
         counts[tactic] = counts.get(tactic, 0) + 1
 
-    donors = sample_schedule_a(committee_id, cycle)
+    donors = []
+    for c in committees:
+        donors += sample_schedule_a(c["committee_id"], cycle)
     progress_cb("donors", len(donors))
     occs = []
     for x in donors:
@@ -214,19 +244,20 @@ def analyze_side(committee_id, label, cycle, max_pages, progress_cb):
         donor_mix[s] = donor_mix.get(s, 0) + 1
 
     spend_total = sum(spend.values())
-    cycle_disb = totals.get("disbursements") or 0
+    cycle_disb = totals_sum["disbursements"]
     return {
         "label": label,
-        "committee_id": committee_id,
+        "committees": breakdown,
         "cycle": cycle,
         "totals": {
-            "receipts": totals.get("receipts"),
-            "disbursements": totals.get("disbursements"),
-            "individual_contributions": totals.get("individual_contributions"),
-            "cash_on_hand_end_period": totals.get("cash_on_hand_end_period"),
+            "receipts": totals_sum["receipts"],
+            "disbursements": totals_sum["disbursements"],
+            "individual_contributions": totals_sum["individual_contributions"],
         },
         "records_walked": len(recs),
         "records_in_year": len(recs_y),
+        "internal_transfers_excluded": round(internal_total, 2),
+        "internal_transfer_count": len(internal),
         "spend_total": round(spend_total, 2),
         "spend_by_tactic": {k: round(v, 2) for k, v in spend.items()},
         "count_by_tactic": counts,
@@ -399,10 +430,17 @@ def run_job(job_id, payload):
                 job["progress"] = {"side": side, "stage": stage, "n": n}
             return cb
 
-        a = analyze_side(payload["a_committee"], payload.get("a_label", "A"),
+        def side_committees(prefix):
+            arr = payload.get(prefix + "_committees")
+            if arr:
+                return arr
+            single = payload.get(prefix + "_committee")
+            return [{"committee_id": single}] if single else []
+
+        a = analyze_side(side_committees("a"), payload.get("a_label", "A"),
                          cycle, max_pages, cb_factory("A"))
         job["progress"] = {"side": "B", "stage": "starting", "n": 0}
-        b = analyze_side(payload["b_committee"], payload.get("b_label", "B"),
+        b = analyze_side(side_committees("b"), payload.get("b_label", "B"),
                          cycle, max_pages, cb_factory("B"))
         result = {"a": a, "b": b, "cycle": cycle,
                   "tactic_cache_size": len(TACTIC_CACHE),
@@ -499,10 +537,15 @@ class Handler(BaseHTTPRequestHandler):
             length = int(self.headers.get("Content-Length", 0))
             payload = json.loads(self.rfile.read(length) or b"{}")
             if parsed.path == "/api/analyze":
-                for k in ("a_committee", "b_committee", "cycle"):
-                    if k not in payload:
-                        self.send_json({"error": "missing " + k}, 400)
-                        return
+                if "cycle" not in payload:
+                    self.send_json({"error": "missing cycle"}, 400)
+                    return
+                has_a = payload.get("a_committees") or payload.get("a_committee")
+                has_b = payload.get("b_committees") or payload.get("b_committee")
+                if not has_a or not has_b:
+                    self.send_json({"error": "missing committees for a side"},
+                                   400)
+                    return
                 job_id = "job-%d" % (int(time.time() * 1000) % 1000000)
                 JOBS[job_id] = {"status": "running",
                                 "progress": {"side": "A", "stage": "starting",

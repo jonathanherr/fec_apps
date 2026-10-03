@@ -9,9 +9,33 @@ Generated 2026-10-03. Live app: `start.sh` → http://127.0.0.1:8741
 |---|---|---|
 | `.env` | Secrets (never commit). `FEC_API_KEY`, `JEV_KEY` | `KEY=value` lines |
 | `server.py` | Stdlib-only backend. Serves `index.html`, proxies FEC, calls Jev, runs analysis jobs | — |
-| `index.html` | Frontend: preset cards, candidate search, matchup picker, Bars + Sankey tabs | — |
-| `presets.json` | 6 curated races | Array of `{id, name, cycle, a, b}`; each side `{label, committee_id, committee_name, candidate_id}` |
+| `index.html` | Frontend: preset cards, candidate search, matchup picker (multi-committee sides), Bars + Sankey tabs | — |
+| `presets.json` | 6 curated races | Array of `{id, name, note, cycle, a, b}`; each side `{label, candidate_id, committees: [{committee_id, committee_name, vehicle}]}` |
 | `start.sh` | Startup: `cd` to dir, optional `PORT=` override, runs server | — |
+
+## Sides: one side = a SET of committees (not "the campaign")
+
+Each matchup side holds 1+ committees. Never summed naively: any Schedule B
+record whose `recipient_committee_id` (or `unused_recipient_committee_id`)
+belongs to the same side is **eliminated** — reported back as
+`internal_transfers_excluded` $ + `internal_transfer_count`, never counted
+as spending. Out-of-side transfers (e.g. to RNC/state parties) stay under
+the `transfers` tactic. Rule is exact ID match, no fuzzy name matching.
+
+### Verified vehicle identities (FEC presidential financial summary + filings)
+
+- **Harris 2024 principal = C00703975** ($1.175B cycle disbursements).
+  Current API name record reads "FIGHT FOR THE PEOPLE PAC / Unauthorized"
+  (names drift across cycles); `candidate_ids` = Biden + Harris and the
+  presidential summary confirm it is the campaign vehicle.
+- **No single Trump 2024 principal exists in FEC data** — the presidential
+  summary splits him across vehicles. Trump side = Never Surrender
+  (C00828541, leadership PAC, $471M) + Save America (C00762591, leadership
+  PAC, $112M). C00580100 (MAGA PAC) is Unauthorized + only $17M in-cycle:
+  deliberately excluded.
+- All Senate presets are principal-vs-principal (designation `P` verified).
+- OH 2024 omitted: Brown's principal unfindable via API, his JFCs total
+  <$1M — too small to chart.
 
 ## Learned translation tables (Jev output, cached)
 
@@ -56,11 +80,13 @@ Export entry shape: `{raw, canonical, confidence, source}` + `meta` header
 | `GET /api/search/candidates?q=` | FEC `/candidates/search/` | `{candidate_id, name, office, party, state, election_years}` |
 | `GET /api/candidate/:id/committees?cycle=` | FEC `/committees/?candidate_id=&cycle=` | `{committee_id, name, designation, type}` |
 | `GET /api/committee/:id?cycle=` | FEC `/committee/` + `/totals/` | info + `{receipts, disbursements, individual_contributions, cash_on_hand}` |
-| `POST /api/analyze` | — | `{a_committee, a_label, a_candidate?, b_*, cycle, max_pages}` → `{job_id}` |
+| `POST /api/analyze` | — | `{a_committees: [{committee_id, committee_name?}], a_label, a_candidate?, b_*, cycle, max_pages}` → `{job_id}` (legacy single `a_committee`/`b_committee` keys still accepted) |
 | `GET /api/jobs/:id` | — | `{status, progress{side, stage, n}, result?}` |
 
 `result` = `{a, b, cycle, tactic_cache_size, sector_cache_size, sankey?}`.
-Side = `{label, committee_id, totals, records_walked, records_in_year,
+Side = `{label, committees: [{committee_id, committee_name, receipts,
+disbursements}], totals (summed), records_walked, records_in_year,
+internal_transfers_excluded, internal_transfer_count,
 spend_total, spend_by_tactic, count_by_tactic, coverage, donor_n,
 donor_by_sector, new_tactic_mappings, new_sector_mappings}`.
 `sankey` = `{nodes[{id, label, kind}], links[{source, target, value}],
